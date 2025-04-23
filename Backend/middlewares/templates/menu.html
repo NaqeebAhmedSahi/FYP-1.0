@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ website.shopPage.title }}</title>
+    {% for stylesheet in website.stylesheets %}
+    <link href="{{ stylesheet }}" rel="stylesheet" />
+    {% endfor %}
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">{{ website.navbar.brand }}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    {% for link in website.navbar.links %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ link.url }}">{{ link.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+            {% for slide in website.indexPage.carousel %}
+            <div class="carousel-item {% if loop.first %}active{% endif %}">
+                <img src="{{ slide.image }}" class="d-block w-100" alt="{{ slide.title }}">
+                <div class="carousel-caption">
+                    <h2 class="slide-text">{{ slide.title }}</h2>
+                    <p class="slide-subtext">{{ slide.subtitle }}</p>
+                    <form class="d-flex justify-content-center search-form">
+                        <input class="form-control search-input" type="search" placeholder="Search for dishes, locations..." aria-label="Search">
+                        <button class="btn btn-custom search-button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <section class="menu">
+        <div class="container">
+            <h2 class="section-title">{{ website.shopPage.title }}</h2>
+
+            {% for category in website.shopPage.categories %}
+            <div class="menu-category {{ category.name | lower | replace(' ', '-') }}">
+                <h3 class="category-title">{{ category.name }}</h3>
+                <div class="menu-items">
+                    {% for item in category.items1 %}
+                    <div class="menu-item">
+                        <img src="{{ item.image }}" alt="{{ item.title }}" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">{{ item.title }}</h3>
+                            <p class="menu-description">{{ item.description }}</p>
+                            <span class="menu-price">{{ item.price }}</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav-section">
+                <div class="logo">
+                    <img src="{{ website.contactPage.footer.logo.image }}" alt="Restaurant Logo" class="logo-image">
+                    <span class="logo-text">{{ website.contactPage.footer.logo.text }}</span>
+                </div>
+                <table class="nav-table">
+                    <tbody>
+                        {% for link in website.contactPage.footer.navigation %}
+                        <tr>
+                            <td><a href="{{ link.url }}">{{ link.name }}</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="contact-section">
+                <h2>Have Questions? Contact Us!</h2>
+                <form class="contact-form">
+                    <input type="email" placeholder="Your Email" class="email-input" required>
+                    <textarea placeholder="Your Message" class="message-input" required></textarea>
+                    <button type="submit" class="btn-custom">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="social-media">
+            {% for social in website.contactPage.footer.socialMedia %}
+            <a href="{{ social.url }}" class="social-icon">
+                <i class="{{ social.icon }}"></i>
+            </a>
+            {% endfor %}
+        </div>
+    </header>
+</body>
+</html>

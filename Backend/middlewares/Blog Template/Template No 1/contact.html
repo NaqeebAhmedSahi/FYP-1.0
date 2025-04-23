@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./Styles/contact.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+          <div class="logo">MyBlog</div>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </header>
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="overlay">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you! Get in touch with us today.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+        <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Our Location</h3>
+            <p>123 Street Name, City, Country</p>
+        </div>
+        <div class="info-box">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Call Us</h3>
+            <p>+123 456 7890</p>
+        </div>
+        <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <h3>Email Us</h3>
+            <p>info@example.com</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-media">
+        <h2>Connect with Us</h2>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question">How can I contact support? <span>+</span></button>
+            <div class="faq-answer">You can reach us via email or phone for any support inquiries.</div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">What are your working hours? <span>+</span></button>
+            <div class="faq-answer">We are available from Monday to Friday, 9 AM to 6 PM.</div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p class="copyright">© 2025 MyBlog. All rights reserved.</p>
+        </div>
+      </footer>
+
+    <script>
+        // FAQ Accordion
+        const questions = document.querySelectorAll(".faq-question");
+        questions.forEach(question => {
+            question.addEventListener("click", () => {
+                question.classList.toggle("active");
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === "block" ? "none" : "block";
+            });
+        });
+    </script>
+
+</body>
+</html>

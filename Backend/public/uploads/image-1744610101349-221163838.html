@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Header</title>
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">MyBlog</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to MyBlog</h1>
+        <p>Explore insightful articles, latest trends, and expert opinions.</p>
+        <a href="#" class="cta-button">Read the Latest Posts</a>
+      </div>
+    </section>
+    <section class="latest-posts">
+      <h2>Latest Blog Posts</h2>
+      <div class="posts-container">
+        <div class="post">
+          <img
+            src="https://source.unsplash.com/400x250/?technology"
+            alt="Post Image"
+          />
+          <h3>Exploring the Future of AI</h3>
+          <p>
+            Discover how artificial intelligence is shaping our world and what
+            the future holds.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="post">
+          <img
+            src="https://source.unsplash.com/400x250/?nature"
+            alt="Post Image"
+          />
+          <h3>The Beauty of Nature</h3>
+          <p>
+            Experience the wonders of nature and its calming effects on our
+            minds.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="post">
+          <img
+            src="https://source.unsplash.com/400x250/?business"
+            alt="Post Image"
+          />
+          <h3>Startup Success Tips</h3>
+          <p>
+            Learn key strategies for launching and growing a successful startup
+            business.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About the Author Section -->
+    <section class="about-author">
+      <div class="author-container">
+        <img
+          src="https://source.unsplash.com/150x150/?person,author"
+          alt="Author Image"
+        />
+        <div class="author-info">
+          <h2>About the Author</h2>
+          <p>
+            Hi, I'm John Doe, a passionate writer who loves sharing insights on
+            technology, nature, and business. Join me in exploring the world
+            through words.
+          </p>
+          <a href="#" class="about-link">Read More About Me</a>
+        </div>
+      </div>
+    </section>
+    <!-- Subscription / Newsletter Signup Section -->
+    <section class="newsletter">
+      <div class="newsletter-container">
+        <h2>Join Our Newsletter</h2>
+        <p>
+          Subscribe to receive the latest blog updates, tips, and exclusive
+          content every week!
+        </p>
+        <form action="#" method="POST">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="testimonials-container">
+        <h2>What Our Readers Say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p>
+              "This blog has completely transformed the way I think about
+              technology. Highly recommended!"
+            </p>
+            <div class="stars">★★★★★</div>
+            <h4>- Sarah Johnson</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "I love the insights and fresh perspectives shared here. The
+              articles are always well-researched."
+            </p>
+            <div class="stars">★★★★★</div>
+            <h4>- Mark Roberts</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "The tips and guides have helped me grow my business. Thank you
+              for such valuable content!"
+            </p>
+            <div class="stars">★★★★☆</div>
+            <h4>- Emily Davis</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Popular / Trending Posts Section -->
+    <section class="trending-posts">
+      <div class="trending-container">
+        <h2>Trending Posts</h2>
+        <div class="trending-list">
+          <div class="trending-item">
+            <img
+              src="https://source.unsplash.com/100x100/?technology"
+              alt="Post Image"
+            />
+            <div class="trending-info">
+              <h3><a href="#">The Future of AI: What's Next?</a></h3>
+              <p>March 20, 2025</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img
+              src="https://source.unsplash.com/100x100/?nature"
+              alt="Post Image"
+            />
+            <div class="trending-info">
+              <h3><a href="#">10 Breathtaking Nature Spots</a></h3>
+              <p>March 15, 2025</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img
+              src="https://source.unsplash.com/100x100/?business"
+              alt="Post Image"
+            />
+            <div class="trending-info">
+              <h3><a href="#">Startup Strategies for 2025</a></h3>
+              <p>March 10, 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call-to-Action (CTA) Section -->
+    <section class="cta-section">
+      <div class="cta-container">
+        <h2>Stay Updated with Our Latest Content!</h2>
+        <p>
+          Join thousands of readers and get fresh insights delivered to your
+          inbox.
+        </p>
+        <a href="#" class="cta-button">Subscribe Now</a>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">© 2025 MyBlog. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

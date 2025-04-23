@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ aboutPage.title }}</title>
+    {% for stylesheet in aboutPage.stylesheets %}
+    <link href="{{ stylesheet }}" rel="stylesheet" />
+    {% endfor %}
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">{{ aboutPage.navbar.brand }}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    {% for link in aboutPage.navbar.links %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ link.url }}">{{ link.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about-us">
+        <div class="container">
+            <h2 class="section-title">{{ aboutPage.aboutSection.title }}</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>{{ aboutPage.aboutSection.content.story.title }}</h3>
+                    <p>{{ aboutPage.aboutSection.content.story.description }}</p>
+
+                    <h3>{{ aboutPage.aboutSection.content.features.title }}</h3>
+                    <ul class="about-list">
+                        {% for item in aboutPage.aboutSection.content.features.items1 %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+
+                    <h3>{{ aboutPage.aboutSection.content.values.title }}</h3>
+                    <p>{{ aboutPage.aboutSection.content.values.description }}</p>
+
+                    <a href="#" class="{{ aboutPage.aboutSection.content.button.class }}">
+                        {{ aboutPage.aboutSection.content.button.text }}
+                    </a>
+                </div>
+                <div class="about-image">
+                    <img src="{{ aboutPage.aboutSection.image.src }}" alt="{{ aboutPage.aboutSection.image.alt }}" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav-section">
+                <div class="logo">
+                    <img src="{{ aboutPage.footer.logo.image }}" alt="Restaurant Logo" class="logo-image">
+                    <span class="logo-text">{{ aboutPage.footer.logo.text }}</span>
+                </div>
+                <table class="nav-table">
+                    <tbody>
+                        {% for link in aboutPage.footer.navigation %}
+                        <tr>
+                            <td><a href="{{ link.url }}">{{ link.name }}</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="contact-section">
+                <h2>Have Questions? Contact Us!</h2>
+                <form class="contact-form">
+                    <input type="email" placeholder="Your Email" class="email-input" required>
+                    <textarea placeholder="Your Message" class="message-input" required></textarea>
+                    <button type="submit" class="btn-custom">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="social-media">
+            {% for social in aboutPage.footer.socialMedia %}
+            <a href="{{ social.url }}" class="social-icon">
+                <i class="{{ social.icon }}"></i>
+            </a>
+            {% endfor %}
+        </div>
+    </header>
+</body>
+</html>

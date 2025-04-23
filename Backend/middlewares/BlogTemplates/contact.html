@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+{% block title %}Contact Us{% endblock %}
+
+{% block content %}
+<section class="contact-hero">
+    <div class="overlay">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="/">Home</a> &gt; <span>Contact Us</span>
+            </div>
+            <h1>{{ website.pages.contact.hero.title }}</h1>
+            <p>{{ website.pages.contact.hero.description }}</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact-info-section">
+    <div class="container">
+        <div class="contact-info">
+            {% for info in website.pages.contact.info %}
+            <div class="info-box">
+                <div class="info-icon">
+                    <i class="{{ info.icon }}"></i>
+                </div>
+                <h3>{{ info.title }}</h3>
+                <p>{{ info.text }}</p>
+                {% if info.link %}
+                <a href="{{ info.link.url }}" class="info-link">{{ info.link.text }}</a>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="contact-form-section">
+    <div class="container">
+        <div class="contact-form-wrapper">
+            <div class="form-container">
+                <h2 class="section-title">Send Us a Message</h2>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="form-sidebar">
+                <div class="office-hours">
+                    <h3>Office Hours</h3>
+                    <ul>
+                        <li>
+                            <span>Monday - Friday</span>
+                            <span>9:00 AM - 6:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Saturday</span>
+                            <span>10:00 AM - 4:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Sunday</span>
+                            <span>Closed</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="emergency-contact">
+                    <h3>Emergency Contact</h3>
+                    <p>For urgent matters outside office hours</p>
+                    <div class="emergency-number">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team-section">
+    <div class="container">
+        <h2 class="section-title">Our Support Team</h2>
+        <p class="section-subtitle">Meet the people who will help you with your inquiries</p>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Support Team">
+                <h3>Sarah Johnson</h3>
+                <p class="position">Customer Support Manager</p>
+                <p class="bio">Sarah has over 8 years of experience helping customers with their questions and concerns.</p>
+                <div class="member-contact">
+                    <a href="mailto:sarah@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Support Team">
+                <h3>Michael Chen</h3>
+                <p class="position">Technical Support Specialist</p>
+                <p class="bio">Michael is our go-to expert for all technical questions and troubleshooting.</p>
+                <div class="member-contact">
+                    <a href="mailto:michael@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Support Team">
+                <h3>Emily Rodriguez</h3>
+                <p class="position">Sales Consultant</p>
+                <p class="bio">Emily can help with product inquiries, pricing, and business solutions.</p>
+                <div class="member-contact">
+                    <a href="mailto:emily@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="social-media-section">
+    <div class="container">
+        <h2 class="section-title">{{ website.pages.contact.social.title }}</h2>
+        <p class="section-subtitle">Connect with us on social media for updates and announcements</p>
+        <div class="social-links">
+            {% for icon in website.pages.contact.social.icons %}
+            <a href="{{ icon.url }}" class="social-icon">
+                <i class="{{ icon.icon }}"></i>
+                <span>{{ icon.name }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="faq-section">
+    <div class="container">
+        <h2 class="section-title">{{ website.pages.contact.faqs.title }}</h2>
+        <p class="section-subtitle">Find answers to common questions about our products and services</p>
+        <div class="faq-container">
+            {% for item in website.pages.contact.faqs.items1 %}
+            <div class="faq-item">
+                <button class="faq-question">{{ item.question }} <span class="toggle-icon">+</span></button>
+                <div class="faq-answer">{{ item.answer }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="faq-cta">
+            <p>Still have questions? We're happy to help!</p>
+            <a href="#" class="cta-button">Contact Our Support Team</a>
+        </div>
+    </div>
+</section>
+
+<section class="map-section">
+    <div class="container">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209132873!2d-73.98784492452521!3d40.74844097138996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689877423583!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="map-info">
+                <h3>Visit Our Office</h3>
+                <address>
+                    350 5th Ave, New York, NY 10118<br>
+                    United States
+                </address>
+                <div class="map-cta">
+                    <a href="#" class="direction-btn"><i class="fas fa-map-marker-alt"></i> Get Directions</a>
+                    <a href="#" class="parking-btn"><i class="fas fa-parking"></i> Parking Information</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter-section">
+    <div class="container">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for company news and updates</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe <i class="fas fa-envelope"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

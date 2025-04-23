@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>{{ website.pages.blog.hero.title }}</h1>
+            <p>{{ website.pages.blog.hero.description }}</p>
+            <a href="{{ website.pages.blog.hero.cta.url }}" class="cta-button">
+                {{ website.pages.blog.hero.cta.text }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="blog-listing">
+    <h2>Latest Blog Posts</h2>
+    
+    {% for post in website.pages.blog.posts %}
+    <div class="post {% cycle '', 'right' %}">
+        <img src="{{ post.image }}" alt="Post Image">
+        <div class="post-content">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.description }}</p>
+            <a href="{{ post.url }}" class="read-more">Read More</a>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="categories-trending">
+    <div class="categories-box">
+        <h2>{{ website.pages.blog.categories.title }}</h2>
+        <div class="categories-list">
+            {% for category in website.pages.blog.categories.items %}
+            <a href="#" class="category">{{ category }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="trending-box">
+        <h2>{{ website.pages.blog.trending.title }}</h2>
+        {% for post in website.pages.blog.trending.posts %}
+        <div class="trending-post">
+            <img src="{{ post.image }}" alt="Trending Post">
+            <div>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <p>{{ post.date }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-container">
+        <h2>Stay Updated with Our Latest Content!</h2>
+        <p>Join thousands of readers and get fresh insights delivered to your inbox.</p>
+        <a href="#" class="cta-button">Subscribe Now</a>
+    </div>
+</section>
+{% endblock %}

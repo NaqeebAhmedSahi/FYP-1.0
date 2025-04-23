@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>{{ portfolio.pages.home.hero.name }}</span>, a <span>{{ portfolio.pages.home.hero.profession }}</span> building <span>{{ portfolio.pages.home.hero.specialty }}</span>.</h1>
+            <p>{{ portfolio.pages.home.hero.tagline }}</p>
+            <div class="hero-buttons">
+                {% for button in portfolio.pages.home.hero.buttons %}
+                <a href="{{ button.url }}" class="btn {% if button.type == 'primary' %}primary{% else %}secondary{% endif %}">{{ button.text }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>↓ Scroll Down</span>
+        </div>
+    </section>
+    
+    <section class="projects">
+        <h2 class="section-title">{{ portfolio.pages.home.projects.title }}</h2>
+        <div class="projects-container">
+            {% for project in portfolio.pages.home.projects.items1 %}
+            <div class="project-card">
+                <img src="{{ project.image }}" alt="{{ project.title }}">
+                <div class="project-info">
+                    <h3>{{ project.title }}</h3>
+                    <p>{{ project.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    
+    <section class="skills">
+        <h2 class="section-title">{{ portfolio.pages.home.skills.title }}</h2>
+        <div class="skills-container">
+            {% for skill in portfolio.pages.home.skills.items1 %}
+            <div class="skill">
+                <h3>{{ skill.name }} <span>{{ skill.level }}%</span></h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: {{ skill.level }}%;"></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="clients">
+        <h2 class="section-title">{{ portfolio.pages.home.clients.title }}</h2>
+        <div class="logos">
+            <div class="logos-slide">
+                {% for logo in portfolio.pages.home.clients.logos %}
+                <img src="{{ logo.image }}" alt="{{ logo.alt }}">
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <h2 class="section-title">{{ portfolio.pages.home.testimonials.title }}</h2>
+        <div class="testimonial-container">
+            {% for testimonial in portfolio.pages.home.testimonials.items1 %}
+            <div class="testimonial">
+                <img src="{{ testimonial.image }}" alt="{{ testimonial.name }}">
+                <p>"{{ testimonial.quote }}"</p>
+                <h4>{{ testimonial.name }}</h4>
+                <span>{{ testimonial.position }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>{{ portfolio.pages.home.about.title }}</h2>
+                <p>{{ portfolio.pages.home.about.content }}</p>
+            </div>
+            <div class="about-image">
+                <img src="{{ portfolio.pages.home.about.image }}" alt="{{ portfolio.pages.home.hero.name }}">
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>{{ portfolio.pages.home.cta.title }}</h2>
+        <p>{{ portfolio.pages.home.cta.content }}</p>
+        <div class="cta-buttons">
+            {% for button in portfolio.pages.home.cta.buttons %}
+            <a href="{{ button.url }}" class="btn {% if button.type == 'primary' %}primary-btn{% else %}secondary-btn{% endif %}">{{ button.text }}</a>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

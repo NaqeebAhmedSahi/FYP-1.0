@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="about-hero">
+        <div class="hero-content">
+            <h1>{{ portfolio.pages.about.hero.title }} <span class="accent">.</span></h1>
+            <p>{{ portfolio.pages.about.hero.subtitle }}</p>
+        </div>
+        <div class="floating-dots"></div>
+    </section>
+
+    <section class="about-intro">
+        <div class="intro-container">
+            <div class="intro-text">
+                <h2>Hi, I'm <span class="highlight">{{ portfolio.pages.about.intro.name }}</span> 👋</h2>
+                <h3>A <span class="role">{{ portfolio.pages.about.intro.role }}</span> specializing in scalable web applications.</h3>
+                {% for paragraph in portfolio.pages.about.intro.content %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+            <div class="intro-image">
+                <img src="{{ portfolio.pages.about.intro.image }}" alt="{{ portfolio.pages.about.intro.name }}">
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills">
+        <h2>{{ portfolio.pages.about.skills.title }}</h2>
+        <div class="skills-container">
+            {% for skill in portfolio.pages.about.skills.items1 %}
+            <div class="skill">
+                <h3>{{ skill.name }}</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: {{ skill.level }}%;"></div>
+                </div>
+                <p>{{ skill.proficiency }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="timeline">
+        <h2>{{ portfolio.pages.about.timeline.title }}</h2>
+        <div class="timeline-container">
+            {% for item in portfolio.pages.about.timeline.items1 %}
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.organization }} | {{ item.period }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="personal-touch">
+        <h2>{{ portfolio.pages.about.personal.title }}</h2>
+        <div class="personal-container">
+            {% for item in portfolio.pages.about.personal.items1 %}
+            <div class="personal-item">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.content }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>{{ portfolio.pages.about.testimonials.title }}</h2>
+        <div class="testimonials-container">
+            {% for testimonial in portfolio.pages.about.testimonials.items1 %}
+            <div class="testimonial">
+                <img src="{{ testimonial.image }}" alt="{{ testimonial.name }}">
+                <p>"{{ testimonial.quote }}"</p>
+                <h3>{{ testimonial.name }}, {{ testimonial.position }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h2>{{ portfolio.pages.about.cta.title }}</h2>
+        <p>{{ portfolio.pages.about.cta.content }}</p>
+        <div class="cta-buttons">
+            {% for button in portfolio.pages.about.cta.buttons %}
+            <a href="{{ button.url }}" class="btn {% if button.type == 'primary' %}primary{% else %}secondary{% endif %}">{{ button.text }}</a>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

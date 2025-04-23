@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}About Us{% endblock %}
+
+{% block content %}
+<section class="single-post-hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>{{ website.pages.about.hero.title }}</h1>
+            <p>{{ website.pages.about.hero.description }}</p>
+        </div>
+    </div>
+</section>
+
+<section class="our-story">
+    <div class="container">
+        <div class="story-content">
+            <h2>Our Story</h2>
+            <p>{{ website.pages.about.hero.description }}</p>
+            
+            <h3>Our Mission</h3>
+            <p>{{ website.pages.about.mission }}</p>
+            
+            <h3>Our Vision</h3>
+            <p>{{ website.pages.about.vision }}</p>
+            
+            <blockquote>{{ website.pages.about.quote }}</blockquote>
+        </div>
+    </div>
+</section>
+
+<section class="meet-the-team">
+    <div class="container">
+        <h2>{{ website.pages.about.team.title }}</h2>
+        <div class="team-members">
+            {% for member in website.pages.about.team.members %}
+            <div class="team-member">
+                <img src="{{ member.image }}" alt="{{ member.name }}">
+                <h3>{{ member.name }}</h3>
+                <p>{{ member.role }}</p>
+                <div class="social-links">
+                    {% for social in member.social %}
+                    <a href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="our-values">
+    <div class="container">
+        <h2>{{ website.pages.about.values.title }}</h2>
+        <div class="values-grid">
+            {% for value in website.pages.about.values.items %}
+            <div class="value-card">
+                <i class="{{ value.icon }}"></i>
+                <h3>{{ value.title }}</h3>
+                <p>{{ value.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="what-we-offer">
+    <div class="container">
+        <h2>{{ website.pages.about.offerings.title }}</h2>
+        <div class="offer-grid">
+            {% for offer in website.pages.about.offerings.items %}
+            <div class="offer-card">
+                <i class="{{ offer.icon }}"></i>
+                <h3>{{ offer.title }}</h3>
+                <p>{{ offer.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2>What Our Readers Say</h2>
+        <div class="testimonial-slider">
+            {% for testimonial in website.pages.homepage.testimonials.items %}
+            <div class="testimonial-card">
+                <p>{{ testimonial.text }}</p>
+                <h4>{{ testimonial.author }}</h4>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

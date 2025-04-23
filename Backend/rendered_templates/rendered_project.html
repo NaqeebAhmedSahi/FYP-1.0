@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./Styles/project.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">MyPortfolio</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </header>
+    <section class="hero-projects">
+        <div class="hero-content">
+            <h1>My <span>Work</span></h1>
+            <p>Selected case studies that solve real problems.</p>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="ui">UI Design</button>
+                <button class="filter-btn" data-category="dev">Development</button>
+                <button class="filter-btn" data-category="branding">Branding</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="projects">
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="./Assets/project1.avif" alt="E-Commerce Redesign">
+                <div class="overlay">
+                    <h3>E-Commerce Redesign</h3>
+                    <p>UI/UX, Mobile App, React</p>
+                    <a href="#" class="view-btn">View Case Study</a>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <img src="./Assets/project2.avif" alt="Portfolio Website">
+                <div class="overlay">
+                    <h3>Portfolio Website</h3>
+                    <p>Web Development, Next.js, Tailwind</p>
+                    <a href="#" class="view-btn">View Case Study</a>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <img src="./Assets/project3.jpg" alt="Brand Identity">
+                <div class="overlay">
+                    <h3>Brand Identity</h3>
+                    <p>Logo Design, Branding, Illustrator</p>
+                    <a href="#" class="view-btn">View Case Study</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-study">
+        <div class="case-study-container">
+            <div class="case-study-text">
+                <h2>Nike E-Commerce Redesign</h2>
+                <p class="problem"><strong>Problem:</strong> Nike needed to increase mobile conversion rates.</p>
+                <p class="role"><strong>My Role:</strong> Lead Designer (Research → Prototyping).</p>
+                <p class="result"><strong>Key Result:</strong> Boosted conversions by 30% in 3 months.</p>
+                <a href="#" class="case-study-btn">Read Full Case Study →</a>
+            </div>
+            <div class="case-study-image">
+                <img src="nike-before-after.jpg" alt="Before and After">
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <p class="quote">"Their design increased our user retention dramatically."</p>
+                <div class="client-info">
+                    <img src="client1-logo.png" alt="Company Logo">
+                    <div class="client-text">
+                        <h4>John Doe</h4>
+                        <p>CEO @ TechCorp</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <p class="quote">"The UI/UX improvements helped us boost conversions by 40%!"</p>
+                <div class="client-info">
+                    <img src="client2-logo.png" alt="Company Logo">
+                    <div class="client-text">
+                        <h4>Jane Smith</h4>
+                        <p>Founder @ StartupX</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <p class="quote">"Their expertise in React and design was a game-changer for our app."</p>
+                <div class="client-info">
+                    <img src="client3-logo.png" alt="Company Logo">
+                    <div class="client-text">
+                        <h4>Mike Johnson</h4>
+                        <p>Product Lead @ FinTech Co.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process">
+        <h2>How I Solve Problems</h2>
+        
+        <div class="timeline">
+            <!-- Step 1: Research -->
+            <div class="timeline-step">
+                <img src="research-icon.png" alt="Research">
+                <h3>Research</h3>
+                <p>User interviews, competitive analysis, and market insights.</p>
+            </div>
+    
+            <!-- Step 2: Ideate -->
+            <div class="timeline-step">
+                <img src="ideate-icon.png" alt="Ideate">
+                <h3>Ideate</h3>
+                <p>Sketching, wireframing, and prototyping to explore solutions.</p>
+            </div>
+    
+            <!-- Step 3: Execute -->
+            <div class="timeline-step">
+                <img src="execute-icon.png" alt="Execute">
+                <h3>Execute</h3>
+                <p>Turning concepts into high-fidelity designs or functional code.</p>
+            </div>
+    
+            <!-- Step 4: Launch -->
+            <div class="timeline-step">
+                <img src="launch-icon.png" alt="Launch">
+                <h3>Launch</h3>
+                <p>Deploying, tracking metrics, and refining based on feedback.</p>
+            </div>
+        </div>
+    
+        <!-- Toolkit Carousel -->
+        <h2>Tools I Use</h2>
+        <div class="toolkit-carousel">
+            <div class="tool"><img src="figma.png" alt="Figma"></div>
+            <div class="tool"><img src="vscode.png" alt="VS Code"></div>
+            <div class="tool"><img src="react.png" alt="React"></div>
+            <div class="tool"><img src="git.png" alt="Git"></div>
+            <div class="tool"><img src="adobe.png" alt="Adobe Suite"></div>
+        </div>
+    </section>
+    <section class="cta">
+        <h2>Have a project in mind?</h2>
+        <p>Let’s bring your ideas to life with stunning design & development.</p>
+        
+        <div class="cta-buttons">
+            <a href="contact.html" class="btn-primary">Let’s Talk →</a>
+            <a href="https://dribbble.com/yourprofile" target="_blank" class="btn-secondary">View My Work</a>
+        </div>
+    </section>
+                
+    
+    
+
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Your Name</h2>
+                <p>Building high-quality web experiences.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/yourprofile" target="_blank">
+                    <img src="github.svg" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                    <img src="linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://dribbble.com/yourprofile" target="_blank">
+                    <img src="dribbble.svg" alt="Dribbble">
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+        
+        
+
+</body>
+</html>

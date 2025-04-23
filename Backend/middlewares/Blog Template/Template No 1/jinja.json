@@ -1,0 +1,298 @@
+{
+    "intents": [
+        {
+            "tag": "blog_website",
+            "pattern": [
+                "Build a blog website",
+                "Create a content publishing site",
+                "I need a website for my blog",
+                "Design a platform for blogging",
+                "Develop a blog with multiple pages",
+                "Build a personal blogging site",
+                "Create a website for article publishing",
+                "I want a site for my writing content",
+                "Design a blog showcase website",
+                "Develop an online journal platform"
+            ],
+            "response": [
+                {
+                    "website": {
+                      "name": "MyBlog",
+                      "meta": {
+                        "charset": "UTF-8",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "favicon": ""
+                      },
+                      "header": {
+                        "logo": "MyBlog",
+                        "navigation": [
+                          {"title": "Home", "url": "#"},
+                          {"title": "Blog", "url": "#"},
+                          {"title": "About", "url": "#"},
+                          {"title": "Contact", "url": "#"}
+                        ],
+                        "search_placeholder": "Search...",
+                        "social_icons": [
+                          {"icon": "fab fa-facebook-f", "url": "#"},
+                          {"icon": "fab fa-twitter", "url": "#"},
+                          {"icon": "fab fa-instagram", "url": "#"}
+                        ]
+                      },
+                      "pages": {
+                        "homepage": {
+                          "hero": {
+                            "title": "Welcome to MyBlog",
+                            "description": "Explore insightful articles, latest trends, and expert opinions.",
+                            "cta": {"text": "Read the Latest Posts", "url": "#"}
+                          },
+                          "latest_posts": {
+                            "title": "Latest Blog Posts",
+                            "posts": [
+                              {
+                                "title": "Exploring the Future of AI",
+                                "description": "Discover how artificial intelligence is shaping our world and what the future holds.",
+                                "image": "https://source.unsplash.com/400x250/?technology",
+                                "url": "#"
+                              },
+                              {
+                                "title": "The Beauty of Nature",
+                                "description": "Experience the wonders of nature and its calming effects on our minds.",
+                                "image": "https://source.unsplash.com/400x250/?nature",
+                                "url": "#"
+                              },
+                              {
+                                "title": "Startup Success Tips",
+                                "description": "Learn key strategies for launching and growing a successful startup business.",
+                                "image": "https://source.unsplash.com/400x250/?business",
+                                "url": "#"
+                              }
+                            ]
+                          },
+                          "about_author": {
+                            "image": "https://source.unsplash.com/150x150/?person,author",
+                            "name": "John Doe",
+                            "description": "Hi, I'm John Doe, a passionate writer who loves sharing insights on technology, nature, and business.",
+                            "link": {"text": "Read More About Me", "url": "#"}
+                          },
+                          "newsletter": {
+                            "title": "Join Our Newsletter",
+                            "description": "Subscribe to receive the latest blog updates, tips, and exclusive content every week!",
+                            "placeholder": "Enter your email"
+                          },
+                          "testimonials": {
+                            "title": "What Our Readers Say",
+                            "items": [
+                              {
+                                "text": "\"This blog has completely transformed the way I think about technology. Highly recommended!\"",
+                                "rating": "★★★★★",
+                                "author": "Sarah Johnson"
+                              },
+                              {
+                                "text": "\"I love the insights and fresh perspectives shared here. The articles are always well-researched.\"",
+                                "rating": "★★★★★",
+                                "author": "Mark Roberts"
+                              }
+                            ]
+                          },
+                          "trending_posts": {
+                            "title": "Trending Posts",
+                            "posts": [
+                              {
+                                "title": "The Future of AI: What's Next?",
+                                "date": "March 20, 2025",
+                                "image": "https://source.unsplash.com/100x100/?technology",
+                                "url": "#"
+                              }
+                            ]
+                          }
+                        },
+                        "about": {
+                          "hero": {
+                            "title": "Our Story",
+                            "description": "It all started with a passion for sharing knowledge."
+                          },
+                          "mission": "To empower, educate, and inspire readers through high-quality content that adds real value to their lives.",
+                          "vision": "We aim to be the go-to source for insightful articles, meaningful discussions, and a community-driven learning experience.",
+                          "quote": "\"Every great idea starts with a simple thought, and every dream turns into reality with persistence.\"",
+                          "team": {
+                            "title": "Meet the Team",
+                            "members": [
+                              {
+                                "name": "John Doe",
+                                "role": "Founder & CEO",
+                                "image": "https://randomuser.me/api/portraits/men/45.jpg",
+                                "social": [
+                                  {"icon": "fab fa-twitter", "url": "#"},
+                                  {"icon": "fab fa-linkedin", "url": "#"},
+                                  {"icon": "fab fa-instagram", "url": "#"}
+                                ]
+                              }
+                            ]
+                          },
+                          "values": {
+                            "title": "Our Values & Philosophy",
+                            "items": [
+                              {
+                                "icon": "fas fa-lightbulb",
+                                "title": "Innovation",
+                                "description": "We believe in bringing fresh ideas and creative solutions to the table."
+                              }
+                            ]
+                          },
+                          "offerings": {
+                            "title": "What We Offer",
+                            "items": [
+                              {
+                                "icon": "fas fa-chalkboard-teacher",
+                                "title": "Expert Insights",
+                                "description": "We provide in-depth analysis and industry trends from experienced professionals."
+                              }
+                            ]
+                          }
+                        },
+                        "blog": {
+                          "hero": {
+                            "title": "Discover the Future of Technology",
+                            "description": "Explore cutting-edge insights, trends, and innovations shaping our world today.",
+                            "cta": {"text": "Read More", "url": "#"}
+                          },
+                          "posts": [
+                            {
+                              "title": "The Art of Seduction",
+                              "description": "Discover the secrets of attraction.",
+                              "image": "https://source.pexels.com/400x300/?love,couple",
+                              "url": "#"
+                            }
+                          ],
+                          "categories": {
+                            "title": "Explore Categories",
+                            "items": ["Technology", "Business", "Lifestyle", "Health", "Travel"]
+                          },
+                          "trending": {
+                            "title": "🔥 Trending Posts",
+                            "posts": [
+                              {
+                                "title": "The Future of AI",
+                                "date": "March 21, 2025",
+                                "image": "https://source.pexels.com/100x100/?technology",
+                                "url": "#"
+                              }
+                            ]
+                          }
+                        },
+                        "contact": {
+                          "hero": {
+                            "title": "Contact Us",
+                            "description": "We'd love to hear from you! Get in touch with us today."
+                          },
+                          "info": [
+                            {
+                              "icon": "fas fa-map-marker-alt",
+                              "title": "Our Location",
+                              "text": "123 Street Name, City, Country"
+                            }
+                          ],
+                          "social": {
+                            "title": "Connect with Us",
+                            "icons": [
+                              {"icon": "fab fa-facebook", "url": "#"},
+                              {"icon": "fab fa-twitter", "url": "#"}
+                            ]
+                          },
+                          "faqs": {
+                            "title": "Frequently Asked Questions",
+                            "items": [
+                              {
+                                "question": "How can I contact support?",
+                                "answer": "You can reach us via email or phone for any support inquiries."
+                              }
+                            ]
+                          }
+                        },
+                        "single_post": {
+                          "hero": {
+                            "title": "The Future of AI: How It's Changing Our World",
+                            "description": "Discover the latest advancements in artificial intelligence and how they impact our daily lives."
+                          },
+                          "meta": {
+                            "author": "John Doe",
+                            "date": "March 29, 2025",
+                            "reading_time": "5 min read"
+                          },
+                          "share_icons": [
+                            {"icon": "fab fa-facebook", "url": "#"},
+                            {"icon": "fab fa-twitter", "url": "#"}
+                          ],
+                          "content": [
+                            {
+                              "type": "heading",
+                              "text": "Introduction",
+                              "level": 2
+                            },
+                            {
+                              "type": "paragraph",
+                              "text": "Artificial intelligence (AI) is transforming industries at an unprecedented pace. From healthcare to finance, AI is reshaping how we live and work."
+                            },
+                            {
+                              "type": "image",
+                              "src": "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg",
+                              "alt": "AI Technology"
+                            }
+                          ],
+                          "author": {
+                            "image": "https://randomuser.me/api/portraits/men/45.jpg",
+                            "name": "John Doe",
+                            "description": "John is a passionate AI researcher and tech blogger with over 10 years of experience in the field.",
+                            "social": [
+                              {"icon": "fab fa-facebook", "url": "#"},
+                              {"icon": "fab fa-twitter", "url": "#"}
+                            ]
+                          },
+                          "related_posts": {
+                            "title": "🔗 Related Posts",
+                            "posts": [
+                              {
+                                "title": "Revolutionizing Tech with AI",
+                                "image": "https://source.unsplash.com/400x250/?technology",
+                                "url": "#"
+                              }
+                            ]
+                          },
+                          "comments": {
+                            "title": "💬 Leave a Comment",
+                            "form": {
+                              "name_placeholder": "Your Name",
+                              "email_placeholder": "Your Email",
+                              "comment_placeholder": "Write your comment here..."
+                            }
+                          }
+                        }
+                      },
+                      "footer": {
+                        "links": [
+                          {"title": "Privacy Policy", "url": "#"},
+                          {"title": "Terms & Conditions", "url": "#"},
+                          {"title": "Contact", "url": "#"}
+                        ],
+                        "social_icons": [
+                          {"icon": "fab fa-facebook-f", "url": "#"},
+                          {"icon": "fab fa-twitter", "url": "#"},
+                          {"icon": "fab fa-instagram", "url": "#"},
+                          {"icon": "fab fa-linkedin-in", "url": "#"}
+                        ],
+                        "copyright": "© 2025 MyBlog. All rights reserved."
+                      },
+                      "styles": {
+                        "primary_color": "#3498db",
+                        "secondary_color": "#2ecc71",
+                        "font_family": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+                      },
+                      "scripts": [
+                        {"src": "https://kit.fontawesome.com/a076d05399.js", "crossorigin": "anonymous"}
+                      ]
+                    }
+                  }
+            ]
+        }
+    ]
+}

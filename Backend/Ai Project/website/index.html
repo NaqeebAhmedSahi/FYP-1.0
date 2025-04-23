@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Home Page</title>
+  <style>
+    .carousel-item img {
+        object-fit: cover;
+        max-height: 600px; /* Adjust this value to your desired maximum height */
+        width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+
+<body>
+  <!-- <p>{{ response}}</p> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Web</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="company.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="car.html">Items</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://via.placeholder.com/400x300?text=Food" alt="Food placeholder image" />
+
+
+            <div class="carousel-caption d-none d-md-block">
+                <h2>{{ response.header[0].slider1 }}</h2>
+                <h3>Create a warm and inviting welcome message to my website</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://source.unsplash.com/random?{{response.details[7]}}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>{{ response.header[0].slider1 }}</h2>
+                <h3>Create a warm and inviting welcome message to my website</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://source.unsplash.com/random?{{response.details[8]}}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>{{ response.header[0].slider1 }}</h2>
+                <h3>Create a warm and inviting welcome message to my website</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <section class="py-6">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-8 mb-5">
+            <p class="text-uppercase text-muted fw-bold mb-1">Top choices</p>
+            <h3>Popular this week</h3>
+            <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-6 pt-lg-3"><a href="car.html"><img class="img-fluid"
+                src="https://source.unsplash.com/random?{{ response.details[0] }}" alt=""></a>
+            <div class="px-4 position-relative z-index-2 mt-n3"><a class="text-dark text-decoration-none"
+                href="detail-2.html">
+                <h3>{{ response.details[0] }}</h3>
+                
+              </a>
+              <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="car.html"> Shop now </a></p>
+            </div>
+          </div>
+          <div class="col-md-7 ms-auto mb-4 mb-md-5">
+            <div class="position-absolute z-index-5 py-6"><a class="text-dark text-decoration-none" href="car.html">
+                <h2>{{ response.details[1] }}</h2>
+                
+              </a>
+              <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="car.html"> Shop now </a></p>
+            </div>
+            <div class="ms-6"><a href="car.html"><img class="img-fluid"
+                  src="https://source.unsplash.com/random?{{ response.details[1] }}" alt=""></a></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 mb-4 mb-lg-5">
+            <div class="position-absolute z-index-5 py-6"><a class="text-dark text-decoration-none"
+                href="detail-2.html">
+                <h2>{{ response.details[2] }}</h2>
+                
+              </a>
+              <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="car.html"> Shop now </a></p>
+            </div>
+            <div class="ms-6"><a href="car.html"><img class="img-fluid"
+                  src="https://source.unsplash.com/random?{{ response.details[2] }}" alt=""></a></div>
+          </div>
+          <div class="col-lg-4 ms-auto pt-lg-6 mb-4 mb-lg-5"><a class="text-dark text-decoration-none"
+              href="car.html"><img class="img-fluid" src="https://source.unsplash.com/random?Fortuner" alt=""></a>
+            <div class="px-4 position-relative z-index-2 mt-n3"><a class="text-dark text-decoration-none"
+                href="car.html">
+                <h3>{{ response.details[3] }}</h3>
+               
+              </a>
+              <p> <a class="btn btn-link text-dark text-decoration-none px-0"> Shop now </a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 pt-lg-3 mb-4 mb-lg-5"><a href="car.html"><img class="img-fluid"
+                src="https://source.unsplash.com/random?{{ response.details[3] }}" alt=""></a>
+            <div class="px-4 position-relative z-index-2 mt-n3"><a class="text-dark text-decoration-none"
+                href="car.html">
+                <h3>{{ response.details[4] }}</h3>
+                
+              </a>
+              <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="car.html"> Shop now </a></p>
+            </div>
+          </div>
+          <div class="col-lg-8 ms-auto">
+            <div class="position-absolute z-index-5 py-6"><a class="text-dark text-decoration-none" href="car.html">
+                <h2>{{ response.details[5] }}</h2>
+               
+              </a>
+              <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="car.html"> Shop now </a></p>
+            </div>
+            <div class="ms-6"><a href="car.html"><img class="img-fluid"
+                  src="https://source.unsplash.com/random?{{ response.details[4] }}" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 mb-5">
+
+            <h3 class="py-5">Popular this week</h3>
+            <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          {% for obj in response.text %}
+          <div class="col">
+              <div class="card shadow-sm">
+                  <img src="https://source.unsplash.com/random?{{ obj.name }}" class="d-block w-100" alt="..."
+                      width="100%" height="225">
+                  <h5 class="card-title" px="3">{{ obj.name }}</h5>
+                  <div class="card-body">
+      
+                      <strong>Price:</strong> ${{ obj.attributes.price }}<br>
+                      {% for key, value in obj.attributes.details.items() %}
+                      <b>{{ key }}</b>: {% if key in ['color', 'fuel_type'] %}<strong>{{ value }}</strong>{% else %}{{ value }}{% endif %}<br>
+                      {% endfor %}
+      
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <!-- Add buttons if needed -->
+                          </div>
+                          <button type="button" class="btn btn-primary">Order Now</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+      </div>
+      
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+.menu {
+    background-color: #121212; /* Dark background */
+    padding: 3rem 1rem;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #e2b04a; /* Gold color */
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #e2b04a;
+    margin: 10px auto;
+}
+
+.menu-category {
+    margin-bottom: 3rem;
+}
+
+.category-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #e2b04a; /* Gold color */
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.category-title::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #e2b04a;
+    margin: 5px auto;
+}
+
+.menu-items {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+    gap: 2rem; /* Space between items */
+}
+
+.menu-item {
+    background-color: #1d1d1d; /* Darker background for each item */
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px; /* Set a fixed width for each item */
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(226, 176, 74, 0.4);
+}
+
+.menu-image {
+    width: 100%; /* Make the image responsive to the container width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the area */
+    border-radius: 8px;
+}
+
+
+.menu-details {
+    padding: 1rem;
+}
+
+.menu-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #e2b04a; /* Gold color */
+}
+
+.menu-description {
+    color: #ffffff; /* White text */
+    margin: 0.5rem 0;
+}
+
+.menu-price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: #e2b04a; /* Gold color */
+    font-weight: bold;
+}
+
+.btn-custom {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #e2b04a; /* Gold background */
+    color: #121212; /* Dark text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #c19a1e; /* Darker gold */
+}

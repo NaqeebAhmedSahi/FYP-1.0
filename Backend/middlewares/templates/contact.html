@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ contactPage.title }}</title>
+    {% for stylesheet in contactPage.stylesheets %}
+    <link href="{{ stylesheet }}" rel="stylesheet" />
+    {% endfor %}
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">{{ contactPage.navbar.brand }}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    {% for link in contactPage.navbar.links %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ link.url }}">{{ link.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact-us">
+        <div class="container">
+            <h2 class="section-title">{{ contactPage.contactSection.title }}</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>{{ contactPage.contactSection.contactInfo.description }}</p>
+                    <ul class="contact-list">
+                        {% for detail in contactPage.contactSection.contactInfo.details %}
+                        <li>
+                            <strong>{{ detail.icon }} {{ detail.label }}:</strong> {{ detail.value }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>{{ contactPage.contactSection.contactForm.title }}</h3>
+                    <form>
+                        {% for field in contactPage.contactSection.contactForm.fields %}
+                        <div class="form-group">
+                            <label for="{{ field.id }}">{{ field.label }}</label>
+                            {% if field.type == "textarea" %}
+                            <textarea id="{{ field.id }}" name="{{ field.id }}" rows="{{ field.rows }}" placeholder="{{ field.placeholder }}" required></textarea>
+                            {% else %}
+                            <input type="{{ field.type }}" id="{{ field.id }}" name="{{ field.id }}" placeholder="{{ field.placeholder }}" required>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                        <button type="submit" class="{{ contactPage.contactSection.contactForm.button.class }}">
+                            {{ contactPage.contactSection.contactForm.button.text }}
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+      
+    
+            <div class="social-media">
+                <h3>{{ contactPage.contactSection.socialMedia.title }}</h3>
+                <ul class="social-list">
+                    {% for social in contactPage.contactSection.socialMedia.links %}
+                    <li>
+                        <a href="{{ social.url }}">
+                            <i class="{{ social.icon }}"></i> {{ social.text }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav-section">
+                <div class="logo">
+                    <img src="{{ contactPage.footer.logo.image }}" alt="Restaurant Logo" class="logo-image">
+                    <span class="logo-text">{{ contactPage.footer.logo.text }}</span>
+                </div>
+                <table class="nav-table">
+                    <tbody>
+                        {% for link in contactPage.footer.navigation %}
+                        <tr>
+                            <td><a href="{{ link.url }}">{{ link.name }}</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="contact-section">
+                <h2>Have Questions? Contact Us!</h2>
+                <form class="contact-form">
+                    <input type="email" placeholder="Your Email" class="email-input" required>
+                    <textarea placeholder="Your Message" class="message-input" required></textarea>
+                    <button type="submit" class="btn-custom">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="social-media">
+            {% for social in contactPage.footer.socialMedia %}
+            <a href="{{ social.url }}" class="social-icon">
+                <i class="{{ social.icon }}"></i>
+            </a>
+            {% endfor %}
+        </div>
+    </header>
+</body>
+</html>

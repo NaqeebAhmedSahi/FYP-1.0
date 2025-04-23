@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="blog-hero">
+        <div class="hero-content">
+            <h1>{{ portfolio.pages.blog.hero.title }}</h1>
+            <p>{{ portfolio.pages.blog.hero.subtitle }}</p>
+        </div>
+    
+        <div class="floating-elements">
+            {% for element in portfolio.pages.blog.hero.floating_elements %}
+            <span>{{ element }}</span>
+            {% endfor %}
+        </div>
+    
+        <div class="featured-carousel">
+            {% for post in portfolio.pages.blog.featured %}
+            <div class="post">
+                <img src="{{ post.image }}" alt="{{ post.title }}">
+                <h3>{{ post.title }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="blog-grid">
+        <div class="container">
+            {% for post in portfolio.pages.blog.posts %}
+            <div class="blog-card">
+                <img src="{{ post.image }}" alt="{{ post.title }}">
+                <div class="blog-content">
+                    <h3>{{ post.title }}</h3>
+                    <p class="meta">{{ post.date }} · {{ post.read_time }} · <span>{{ post.category }}</span></p>
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h2>{{ portfolio.pages.blog.newsletter.title }}</h2>
+            <p>{{ portfolio.pages.blog.newsletter.subtitle }}</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="{{ portfolio.pages.blog.newsletter.placeholder }}" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <small>No spam. Unsubscribe anytime.</small>
+        </div>
+    </section>
+
+    <section class="author-bio">
+        <img src="{{ portfolio.pages.blog.author.image }}" alt="{{ portfolio.pages.blog.author.name }}">
+        <div class="bio-content">
+            <h3>Hi, I'm {{ portfolio.pages.blog.author.name }}</h3>
+            <p>{{ portfolio.pages.blog.author.bio }}</p>
+            <a href="{{ portfolio.pages.blog.author.cta.url }}" class="btn">{{ portfolio.pages.blog.author.cta.text }}</a>
+        </div>
+    </section>
+
+    <section class="related-posts">
+        <h2>You might also like...</h2>
+        <div class="related-posts-grid">
+            {% for post in portfolio.pages.blog.related %}
+            <article>
+                <img src="{{ post.image }}" alt="{{ post.title }}">
+                <h3><a href="post1.html">{{ post.title }}</a></h3>
+                <p>{{ post.excerpt }}</p>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

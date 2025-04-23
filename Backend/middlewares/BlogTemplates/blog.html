@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>{{ website.pages.blog.hero.title }}</h1>
+            <p>{{ website.pages.blog.hero.description }}</p>
+            <a href="{{ website.pages.blog.hero.cta.url }}" class="cta-button">
+                {{ website.pages.blog.hero.cta.text }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="blog-listing">
+    <h2>Latest Blog Posts</h2>
+
+    {% for post in website.pages.blog.posts %}
+    <div class="post {% if loop.index % 2 == 0 %}right{% endif %}">
+        <img src="{{ post.image }}" alt="Post Image">
+        <div class="post-content">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.description }}</p>
+            <a href="{{ post.url }}" class="read-more">Read More</a>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+
+<!-- General Featured Post Section -->
+<section class="featured-post">
+    <div class="container">
+        <div class="featured-content">
+            <span class="featured-badge">Featured Post</span>
+            <h2>Key Insights From Our Most Popular Article</h2>
+            <p class="post-meta">Published on [Date] | [Read Time]</p>
+            <p>This highlight summarizes the main points from our most engaged-with content, giving readers the essential takeaways...</p>
+            <a href="#" class="read-more">Continue Reading →</a>
+        </div>
+        <div class="featured-image">
+            <img src="/static/images/blog/featured-post.jpg" alt="Featured Post">
+        </div>
+    </div>
+</section>
+
+<!-- General Resources Section -->
+<section class="resources-section">
+    <div class="container">
+        <h2>Helpful Resources</h2>
+        <div class="resource-cards">
+            <div class="resource-card">
+                <div class="resource-icon">📚</div>
+                <h3>Guides & Tutorials</h3>
+                <p>Practical walkthroughs for common tasks and challenges</p>
+                <a href="#" class="resource-link">Explore Guides</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-icon">🎥</div>
+                <h3>Video Library</h3>
+                <p>Visual demonstrations and explainer videos</p>
+                <a href="#" class="resource-link">Watch Videos</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-icon">📊</div>
+                <h3>Tools & Templates</h3>
+                <p>Downloadable resources to help you implement what you learn</p>
+                <a href="#" class="resource-link">Get Resources</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="categories-trending">
+    <div class="categories-box">
+        <h2>{{ website.pages.blog.categories.title }}</h2>
+        <div class="categories-list">
+            {% for category in website.pages.blog.categories.items1 %}
+            <a href="#" class="category">{{ category }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="trending-box">
+        <h2>{{ website.pages.blog.trending.title }}</h2>
+        {% for post in website.pages.blog.trending.posts %}
+        <div class="trending-post">
+            <img src="{{ post.image }}" alt="Trending Post">
+            <div>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <p>{{ post.date }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-container">
+        <h2>Stay Updated with Our Latest Content!</h2>
+        <p>Join thousands of readers and get fresh insights delivered to your inbox.</p>
+        <a href="#" class="cta-button">Subscribe Now</a>
+    </div>
+</section>
+{% endblock %}

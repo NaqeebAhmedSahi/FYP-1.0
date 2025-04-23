@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="{{ website.meta.charset }}">
+    <meta name="viewport" content="{{ website.meta.viewport }}">
+    <title>{{ website.name }} - {% block title %}{% endblock %}</title>
+    <style>
+        :root {
+            --primary-color: {{ website.styles.primary_color }};
+            --secondary-color: {{ website.styles.secondary_color }};
+            --font-family: {{ website.styles.font_family }};
+        }
+        body {
+            font-family: var(--font-family);
+        }
+    </style>
+    {% for script in website.scripts %}
+    <script src="{{ script.src }}" crossorigin="{{ script.crossorigin }}"></script>
+    {% endfor %}
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">{{ website.header.logo }}</div>
+            <nav>
+                <ul>
+                    {% for item in website.header.navigation %}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="{{ website.header.search_placeholder }}">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="social-icons">
+                {% for icon in website.header.social_icons %}
+                <a href="{{ icon.url }}"><i class="{{ icon.icon }}"></i></a>
+                {% endfor %}
+            </div>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <ul>
+                    {% for link in website.footer.links %}
+                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="social-icons">
+                {% for icon in website.footer.social_icons %}
+                <a href="{{ icon.url }}"><i class="{{ icon.icon }}"></i></a>
+                {% endfor %}
+            </div>
+            <p class="copyright">{{ website.footer.copyright }}</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,651 @@
+<!-- Navbar --><meta charset="UTF-8" /><meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+/><title>Sustainable Fashion Website</title
+><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+/><link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;600&display=swap"
+/><link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap"
+/><link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/><link rel="stylesheet" href="./style.css" /><link rel="stylesheet" href="./fashion.css" />
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a href="#" class="navbar-brand">Fashion </a
+    ><button
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="./shop.html" class="nav-link">Shop</a></li>
+        <li class="nav-item"><a href="./aboutUs.html" class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Carousel -->
+<div id="carouselExample" data-bs-ride="carousel" data-bs-interval="4000" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="https://pixabay.com/get/g70af9494ae24ad1a0f764d2c3f050d6473e3073d40f3fb2f8e5d8b4ee4e43ea0955c85867161c14681d009e6255a24663da2034b0547c8feba17ef0c60527077_640.jpg"
+        alt="Slider 1"
+        class="d-block w-100"
+      />
+      <div class="carousel-caption">
+        <h2 class="slide-text">Fashion with a Conscience</h2>
+        <p class="slide-subtext">
+          Explore our collection of sustainable and eco-friendly clothing.
+        </p>
+        <form class="d-flex justify-content-center search-form">
+          <input
+            type="search"
+            placeholder="Search for dishes, locations..."
+            aria-label="Search"
+            class="form-control search-input"
+          /><button role="button" type="submit" class="btn btn-custom search-button">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://pixabay.com/get/gf05d9aa687c6d32bb97cddcd16f9c4ec3e81269113f7c5daebd3209cc3190135379f01fa2546c8cd98c17953b2de7572e3999c4a3a23da6f8986a17ce279c3a8_640.jpg"
+        alt="Slider 2"
+        class="d-block w-100"
+      />
+      <div class="carousel-caption">
+        <h2 class="slide-text">Wear the Change</h2>
+        <p class="slide-subtext">From organic fabrics to ethical production, we have it all.</p>
+        <form class="d-flex justify-content-center search-form">
+          <input
+            type="search"
+            placeholder="Search for dishes, locations..."
+            aria-label="Search"
+            class="form-control search-input"
+          /><button role="button" type="submit" class="btn btn-custom search-button">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://pixabay.com/get/g4c0f7928cbd9ea7ca6b106f253ccdbd5482600e993a56ad2ce6f9ecdf8403e0a3b2553d0247792cbd76138563ace7d8d256f5644faf19ec30dcc6030785be53e_640.jpg"
+        alt="Slider 3"
+        class="d-block w-100"
+      />
+      <div class="carousel-caption">
+        <h2 class="slide-text">Your Style, Your Planet</h2>
+        <p class="slide-subtext">Shop our premium sustainable fashion and make a difference.</p>
+        <form class="d-flex justify-content-center search-form">
+          <input
+            type="search"
+            placeholder="Search for dishes, locations..."
+            aria-label="Search"
+            class="form-control search-input"
+          /><button role="button" type="submit" class="btn btn-custom search-button">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Specials Section -->
+<div class="specials-section container py-5 my-5">
+  <h2 class="section-title text-center mb-5">Shop by Category</h2>
+  <div class="specials-carousel">
+    <button onclick="moveCarousel(-1)" class="carousel-control prev">❮</button>
+    <div class="specials-wrapper">
+      <div class="specials-items">
+        <div class="special-card">
+          <img
+            src="https://pixabay.com/get/gcf66689f370b7dbf7c6256e58075a70b149505686bfc026da2c561db4a9a2a3ec5601be462b1ac288cb1e71d92ac1b9c_640.jpg"
+            alt="Organic Cotton Shirt"
+            class="special-image"
+          />
+          <div class="special-content">
+            <h3 class="special-title">Organic Cotton Shirt</h3>
+            <p class="special-description">
+              Soft and breathable shirt made from 100% organic cotton.
+            </p>
+            <p class="special-price">$39.99</p>
+          </div>
+        </div>
+        <div class="special-card">
+          <img
+            src="https://pixabay.com/get/g6fa779858019beefbb312b54a9cb26a30ce5745508c82d61928e5e2ef574ed256579a20f835a2bdd44f24542601f9939e0f38c6dbaea8c58172ac7a0d575fbed_640.jpg"
+            alt="Recycled Denim Jeans"
+            class="special-image"
+          />
+          <div class="special-content">
+            <h3 class="special-title">Recycled Denim Jeans</h3>
+            <p class="special-description">Stylish jeans made from recycled denim.</p>
+            <p class="special-price">$79.99</p>
+          </div>
+        </div>
+        <div class="special-card">
+          <img
+            src="https://pixabay.com/get/gb73172d14c406cfd5f4817ebc58fa2e8ac3d3e18020476c1c9c7b78eb775d1be2f1b5eae4be04be0b8efee6e3437b0a5_640.jpg"
+            alt="Bamboo Socks"
+            class="special-image"
+          />
+          <div class="special-content">
+            <h3 class="special-title">Bamboo Socks</h3>
+            <p class="special-description">
+              Eco-friendly socks made from sustainable bamboo fibers.
+            </p>
+            <p class="special-price">$14.99</p>
+          </div>
+        </div>
+        <div class="special-card">
+          <img
+            src="https://pixabay.com/get/g40e83e6df525e9bf02336882a065db1fcd95de2598e802881647b31f2ac17403bcf21b5fb619b8fe93326722db15043c9880f5e830fe44782464a80983d33ea7_640.jpg"
+            alt="Vegan Leather Bag"
+            class="special-image"
+          />
+          <div class="special-content">
+            <h3 class="special-title">Vegan Leather Bag</h3>
+            <p class="special-description">Chic and cruelty-free bag made from vegan leather.</p>
+            <p class="special-price">$99.99</p>
+          </div>
+        </div>
+        <div class="special-card">
+          <img
+            src="https://pixabay.com/get/g1001eee94a7f415e9860f39d55f030a226c4369dfe875ee797f4ba88f69af65cf5901a2b87276d307be37961b74c7073a4cfe4ae0cd76b31372b3c68fc0691cd_640.jpg"
+            alt="Organic Dress"
+            class="special-image"
+          />
+          <div class="special-content">
+            <h3 class="special-title">Organic Dress</h3>
+            <p class="special-description">
+              Elegant dress made from organic and sustainable materials.
+            </p>
+            <p class="special-price">$89.99</p>
+          </div>
+        </div>
+        <div class="special-card">
+          <img
+            src="https://pixabay.com/get/gc1bd972d6e065756671ccaa8168f2d823431bffb5a3f1a987706a3ce97e1647105dcd5b1480ad233be47f64167eb0f2f_640.jpg"
+            alt="Recycled Polyester Jacket"
+            class="special-image"
+          />
+          <div class="special-content">
+            <h3 class="special-title">Recycled Polyester Jacket</h3>
+            <p class="special-description">Warm and stylish jacket made from recycled polyester.</p>
+            <p class="special-price">$109.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button onclick="moveCarousel(1)" class="carousel-control next">❯</button>
+  </div>
+</div>
+<!-- Large Image with Call-to-Action Section -->
+<section class="cta-section">
+  <div class="cta-image">
+    <img
+      src="https://pixabay.com/get/g70056d3f96b0500958123eb24665aa8f44f34a19e5d8cd7bf4612c42dcb353cf908768b61bd782858327e9d9ee61020610b8ebce83175a91508f6ac9bbd8b226_640.jpg"
+      alt="Special Offer"
+      class="img-fluid"
+    />
+    <div class="cta-overlay">
+      <h2>Seasonal Special</h2>
+      <h3>50% Off All Desserts</h3>
+      <p>This weekend only - don&#039;t miss out!</p>
+      <a role="button" href="#" class="btn btn-cta">Order Now</a>
+    </div>
+  </div>
+</section>
+<!-- Product Grid with Filter Options -->
+<section class="menu-section">
+  <div class="container">
+    <h2 class="section-title">Our Menu</h2>
+    <div class="filter-options">
+      <div class="filter-group">
+        <label for="category-filter">Category:</label
+        ><select id="category-filter" class="form-select">
+          <option value="all">All Categories</option>
+          <option value="starters">Starters</option>
+          <option value="mains">Main Courses</option>
+          <option value="desserts">Desserts</option>
+          <option value="drinks">Drinks</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="price-filter">Price:</label
+        ><select id="price-filter" class="form-select">
+          <option value="all">All Prices</option>
+          <option value="0-10">$0 - $10</option>
+          <option value="10-20">$10 - $20</option>
+          <option value="20+">$20+</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="sort-by">Sort By:</label
+        ><select id="sort-by" class="form-select">
+          <option value="popular">Most Popular</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="rating">Highest Rated</option>
+        </select>
+      </div>
+    </div>
+    <div class="menu-grid">
+      <!-- Menu Item 1 -->
+      <div
+        data-category="mains"
+        data-price="18"
+        data-rating="4.8"
+        data-popular="true"
+        class="menu-item"
+      >
+        <div class="menu-item-image">
+          <img
+            src="https://pixabay.com/get/gb3a3269fc0f8e6de1c20de8ab66802f42d411da4c3007c40975e9e6d7f97eede27243eb4e5e72d378b2e2859458a53bceded8f07c3f21e0105e89d4e43fffb68_640.jpg"
+            alt="Truffle Pasta"
+            class="img-fluid"
+          /><span class="popular-badge">Popular</span>
+        </div>
+        <div class="menu-item-content">
+          <h3>Truffle Pasta</h3>
+          <p class="item-description">
+            Creamy pasta with a hint of fresh truffles, topped with parmesan.
+          </p>
+          <div class="item-meta">
+            <span class="price">$18.99</span><span class="rating">★ 4.8</span>
+          </div>
+          <button role="button" class="btn btn-order">Add to Order</button>
+        </div>
+      </div>
+      <!-- Menu Item 2 -->
+      <div
+        data-category="mains"
+        data-price="22"
+        data-rating="4.7"
+        data-popular="true"
+        class="menu-item"
+      >
+        <div class="menu-item-image">
+          <img
+            src="https://pixabay.com/get/g130a71a3b2900cd703b63145765e4d0813b1472fd35605742519c32797641fb5dd08e00a8df00a2009992301b75bfb3268a516e152450fca2428c24477a1b1b2_640.jpg"
+            alt="Grilled Salmon"
+            class="img-fluid"
+          />
+        </div>
+        <div class="menu-item-content">
+          <h3>Grilled Salmon</h3>
+          <p class="item-description">Perfectly grilled salmon with a lemon butter sauce.</p>
+          <div class="item-meta">
+            <span class="price">$22.99</span><span class="rating">★ 4.7</span>
+          </div>
+          <button role="button" class="btn btn-order">Add to Order</button>
+        </div>
+      </div>
+      <!-- Menu Item 3 -->
+      <div
+        data-category="mains"
+        data-price="14"
+        data-rating="4.5"
+        data-popular="false"
+        class="menu-item"
+      >
+        <div class="menu-item-image">
+          <img
+            src="https://pixabay.com/get/g30c35a35d12a093f6b871fe9ae41dde23eb09c16293dc40b8eab2984991e1cacf24d74adca162424b1aad3d699dfbe509c9dc01d620dbf69d0ccf4a4f6531dc0_640.jpg"
+            alt="Gourmet Burger"
+            class="img-fluid"
+          />
+        </div>
+        <div class="menu-item-content">
+          <h3>Gourmet Burger</h3>
+          <p class="item-description">
+            Juicy beef patty with fresh greens, cheese, and a secret sauce.
+          </p>
+          <div class="item-meta">
+            <span class="price">$14.99</span><span class="rating">★ 4.5</span>
+          </div>
+          <button role="button" class="btn btn-order">Add to Order</button>
+        </div>
+      </div>
+      <!-- Menu Item 4 -->
+      <div
+        data-category="starters"
+        data-price="9"
+        data-rating="4.3"
+        data-popular="false"
+        class="menu-item"
+      >
+        <div class="menu-item-image">
+          <img
+            src="https://pixabay.com/get/gea5e2021f66a1b17af51118fa38f1c07684eaeb115713f0bd72c87aa1b68f0f7e9ec7045528ca7408574e1667a30803357234264e9d7d38f747cbc9c1d02193e_640.jpg"
+            alt="Bruschetta"
+            class="img-fluid"
+          />
+        </div>
+        <div class="menu-item-content">
+          <h3>Bruschetta</h3>
+          <p class="item-description">
+            Toasted bread topped with tomatoes, garlic, and fresh basil.
+          </p>
+          <div class="item-meta">
+            <span class="price">$9.99</span><span class="rating">★ 4.3</span>
+          </div>
+          <button role="button" class="btn btn-order">Add to Order</button>
+        </div>
+      </div>
+      <!-- Menu Item 5 -->
+      <div
+        data-category="desserts"
+        data-price="8"
+        data-rating="4.9"
+        data-popular="true"
+        class="menu-item"
+      >
+        <div class="menu-item-image">
+          <img
+            src="https://pixabay.com/get/gf148d762cd892409189b8e5e0829cc68ca2891888254e059fa4f42c21729b47e935f6caa763a7d9a5be01a921dcfedbb5b6a2e5191d74570699e7ef99491b014_640.jpg"
+            alt="Chocolate Lava Cake"
+            class="img-fluid"
+          /><span class="popular-badge">Popular</span>
+        </div>
+        <div class="menu-item-content">
+          <h3>Chocolate Lava Cake</h3>
+          <p class="item-description">
+            Warm chocolate cake with a molten center, served with vanilla ice cream.
+          </p>
+          <div class="item-meta">
+            <span class="price">$8.99</span><span class="rating">★ 4.9</span>
+          </div>
+          <button role="button" class="btn btn-order">Add to Order</button>
+        </div>
+      </div>
+      <!-- Menu Item 6 -->
+      <div
+        data-category="drinks"
+        data-price="6"
+        data-rating="4.6"
+        data-popular="false"
+        class="menu-item"
+      >
+        <div class="menu-item-image">
+          <img
+            src="https://pixabay.com/get/gea9659943c3fb84a930213b966cc5d5481cfe21692c25c7005368c00821622b9efd728f9d62ba7ae93df5694a670a56da8483a9f7e737431ff2b920d8f8a6742_640.jpg"
+            alt="Signature Cocktail"
+            class="img-fluid"
+          />
+        </div>
+        <div class="menu-item-content">
+          <h3>Signature Cocktail</h3>
+          <p class="item-description">Our special blend of spirits with fresh fruit juices.</p>
+          <div class="item-meta">
+            <span class="price">$6.99</span><span class="rating">★ 4.6</span>
+          </div>
+          <button role="button" class="btn btn-order">Add to Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Highlights Section -->
+<section class="key-highlights">
+  <div class="container">
+    <h2 class="section-title">Why Choose Us</h2>
+    <div class="highlights-wrapper">
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-leaf"></i></div>
+        <h3 class="highlight-title">Eco-Friendly Materials</h3>
+        <p class="highlight-description">
+          We use sustainable and organic materials in all our products.
+        </p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-shipping-fast"></i></div>
+        <h3 class="highlight-title">Fast Shipping</h3>
+        <p class="highlight-description">Get your sustainable fashion delivered quickly.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-star"></i></div>
+        <h3 class="highlight-title">Premium Quality</h3>
+        <p class="highlight-description">Our products are designed to be durable and stylish.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-user-friends"></i></div>
+        <h3 class="highlight-title">Customer Satisfaction</h3>
+        <p class="highlight-description">
+          Our products are designed with your comfort and style in mind.
+        </p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-globe"></i></div>
+        <h3 class="highlight-title">Global Impact</h3>
+        <p class="highlight-description">
+          We are committed to reducing our environmental footprint.
+        </p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-gift"></i></div>
+        <h3 class="highlight-title">Perfect Gift</h3>
+        <p class="highlight-description">
+          Our sustainable fashion makes great gifts for eco-conscious individuals.
+        </p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-headset"></i></div>
+        <h3 class="highlight-title">24/7 Support</h3>
+        <p class="highlight-description">Our team is available round the clock to assist you.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon"><i class="fas fa-tags"></i></div>
+        <h3 class="highlight-title">Special Offers</h3>
+        <p class="highlight-description">
+          Enjoy exclusive discounts and offers on select products.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <div class="container">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <div class="testimonials-wrapper">
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>The organic cotton shirt is so comfortable and stylish. I love it!</p>
+        </div>
+        <div class="customer-info">
+          <img
+            src="https://pixabay.com/get/gcc1672c5de76ecbb43cff22dd4e6fd59798e7368ccf53be021bc65150996231eb6b98ef0b8d5004d6c930d513fb7a6b0812b0525af2d878f5222772851a8453d_640.jpg"
+            alt="Emily Johnson"
+            class="customer-image"
+          />
+          <h3 class="customer-name">Emily Johnson</h3>
+          <span class="customer-role">Fashion Enthusiast</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>
+            The recycled denim jeans are my new favorite. They fit perfectly and are eco-friendly!
+          </p>
+        </div>
+        <div class="customer-info">
+          <img
+            src="https://pixabay.com/get/gb17f56061bbbca61196e0db51eb696e200722cf1a08f526fb929a6c920b4bdf58c32f3959beb36ce7d6fc0eaa047681a6baf02881cf8ab0a18b38a744f7c5198_640.jpg"
+            alt="Michael Brown"
+            class="customer-image"
+          />
+          <h3 class="customer-name">Michael Brown</h3>
+          <span class="customer-role">Eco-Conscious Shopper</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>The bamboo socks are incredibly soft and sustainable. Highly recommend!</p>
+        </div>
+        <div class="customer-info">
+          <img
+            src="https://pixabay.com/get/gc5f92a616748f13020c3fb83a890a76da86c8bd9e596dae839a1801a2aca0219bffeae882de823942ae6467b2d5e5986fdac7bbec338b115c153d50dffef34de_640.jpg"
+            alt="Sarah Davis"
+            class="customer-image"
+          />
+          <h3 class="customer-name">Sarah Davis</h3>
+          <span class="customer-role">Sustainable Living Advocate</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>The vegan leather bag is chic and cruelty-free. It&#039;s perfect for my lifestyle.</p>
+        </div>
+        <div class="customer-info">
+          <img
+            src="https://pixabay.com/get/gbaab64278446725cf5096b80ec86b69e392153f59b84d34610478a55995ca6cddf8d92dec156e63c5e3d6a72e429d408700529ba26b7373d57b60c7f059ac695_640.jpg"
+            alt="David Wilson"
+            class="customer-image"
+          />
+          <h3 class="customer-name">David Wilson</h3>
+          <span class="customer-role">Vegan Fashion Lover</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Gallery Section -->
+<section class="gallery">
+  <div class="container">
+    <h2 class="section-title">Our Ambiance</h2>
+    <div class="gallery-item">
+      <div class="gallery-text">
+        <h3>Eco-Friendly Fabrics</h3>
+        <div class="underline"></div>
+        <p>Our clothing is made from sustainable and organic materials.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <img
+        src="https://pixabay.com/get/g763d804130db2676f8cb7330646eb3124bd20aba07d37bdebaff528343c5cafb75e2c5aa2ce89535163d09bec468414c_640.jpg"
+        alt="Eco-Friendly Fabrics"
+        class="gallery-image"
+      />
+    </div>
+    <div class="gallery-item">
+      <img
+        src="https://pixabay.com/get/g749798795807c2d9938acb9e417e3f03f88221e025bfc7c50fdca784b6d287d4fb5180026ad0c2fea19f34d6f810e78529e22710aa661273428861d6d13473eb_640.jpg"
+        alt="Ethical Production"
+        class="gallery-image"
+      />
+      <div class="gallery-text">
+        <h3>Ethical Production</h3>
+        <div class="underline"></div>
+        <p>We ensure fair wages and safe working conditions for all workers.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-text">
+        <h3>Stylish and Sustainable</h3>
+        <div class="underline"></div>
+        <p>Our designs combine fashion with sustainability.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <img
+        src="https://pixabay.com/get/gcab3290494eaf95091c7d1ea258276f74323cbf015597806263a3d90bcd8737c31d736de9e80223cbf8c1e19bb40dc913a5fff57d7c530abea019a5c0d30d940_640.jpg"
+        alt="Stylish and Sustainable"
+        class="gallery-image"
+      />
+    </div>
+    <div class="gallery-item">
+      <img
+        src="https://pixabay.com/get/g157d28218c68f705f759cf17a9d2f0a0b37c22feb3fb3fea27a03e409ba75dbde69be023177c2a4655e5f00b7d037d07d5f73cb8cb16a21b7eeee95dd0f8e065_640.jpg"
+        alt="Cruelty-Free Fashion"
+        class="gallery-image"
+      />
+      <div class="gallery-text">
+        <h3>Cruelty-Free Fashion</h3>
+        <div class="underline"></div>
+        <p>Our vegan leather products are stylish and ethical.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-text">
+        <h3>Reducing Waste</h3>
+        <div class="underline"></div>
+        <p>We use recycled materials to minimize environmental impact.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <img
+        src="https://pixabay.com/get/gc04bb554a1a923cf892b4d128faca846c05ff61a0bc61302a49f7161cdbb52abd26f26d1deedd467084648ba5918f15cdb24252324e543abe56197c570dc6f95_640.jpg"
+        alt="Reducing Waste"
+        class="gallery-image"
+      />
+    </div>
+    <div class="gallery-item">
+      <img
+        src="https://pixabay.com/get/g7ded93e9997926ec5247669539ba1f33e62843019944c8e898b3e447fd1a2111b79a2e8767e35bd20892e850db551ca4cc88ddec8d0d151e68b40f71965a9245_640.jpg"
+        alt="Global Impact"
+        class="gallery-image"
+      />
+      <div class="gallery-text">
+        <h3>Global Impact</h3>
+        <div class="underline"></div>
+        <p>We are committed to making a positive impact on the planet.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<header class="header">
+  <div class="container">
+    <div class="nav-section">
+      <div class="logo">
+        <img
+          src="https://pixabay.com/get/g4e988370b83e695634e5e7f50d2564f43413eb5543b90131642cca8be3d0e6bb5518a4366489885097cd139da65ef4d1497d951b144329c28b57194873315403_640.jpg"
+          alt="Restaurant Logo"
+          class="logo-image"
+        /><span class="logo-text">EcoChic</span>
+      </div>
+      <table class="nav-table">
+        <tbody>
+          <tr>
+            <td><a href="#home">Home</a></td>
+            <td><a href="#shop">Shop</a></td>
+          </tr>
+          <tr>
+            <td><a href="#about">About Us</a></td>
+            <td><a href="#contact">Contact</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="contact-section">
+      <h2>Have Questions? Contact Us!</h2>
+      <form class="contact-form">
+        <input type="email" placeholder="Your Email" required class="email-input" /><textarea
+          placeholder="Your Message"
+          required
+          class="message-input"
+        ></textarea
+        ><button type="submit" class="btn-custom">Send</button>
+      </form>
+    </div>
+  </div>
+  <div class="social-media">
+    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a
+    ><a href="#" class="social-icon"><i class="fab fa-twitter"></i></a
+    ><a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+  </div>
+</header>

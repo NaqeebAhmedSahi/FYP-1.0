@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}{{ website.pages.single_post.hero.title }}{% endblock %}
+
+{% block content %}
+<section class="single-post-hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>{{ website.pages.single_post.hero.title }}</h1>
+            <p>{{ website.pages.single_post.hero.description }}</p>
+        </div>
+    </div>
+</section>
+
+<section class="blog-post-content">
+    <h1 class="post-title">{{ website.pages.single_post.hero.title }}</h1>
+    
+    <div class="post-meta">
+        <span class="author">By <strong>{{ website.pages.single_post.meta.author }}</strong></span> • 
+        <span class="date">{{ website.pages.single_post.meta.date }}</span> • 
+        <span class="reading-time">⏳ {{ website.pages.single_post.meta.reading_time }} read</span>
+    </div>
+
+    <div class="post-share">
+        <span>Share:</span>
+        {% for icon in website.pages.single_post.share_icons %}
+        <a href="{{ icon.url }}"><i class="{{ icon.icon }}"></i></a>
+        {% endfor %}
+    </div>
+
+    <article class="post-body">
+        {% for content in website.pages.single_post.content %}
+        {% if content.type == "heading" %}
+        <h{{ content.level }}>{{ content.text }}</h{{ content.level }}>
+        {% elif content.type == "paragraph" %}
+        <p>{{ content.text }}</p>
+        {% elif content.type == "image" %}
+        <img src="{{ content.src }}" alt="{{ content.alt }}">
+        {% elif content.type == "quote" %}
+        <blockquote>{{ content.text }}</blockquote>
+        {% endif %}
+        {% endfor %}
+    </article>
+</section>
+
+<section class="author-bio">
+    <img src="{{ website.pages.single_post.author.image }}" alt="Author Image" class="author-img">
+    <div class="author-info">
+        <h3 class="author-name">{{ website.pages.single_post.author.name }}</h3>
+        <p class="author-description">
+            {{ website.pages.single_post.author.description }}
+        </p>
+        <div class="author-links">
+            {% for social in website.pages.single_post.author.social %}
+            <a href="{{ social.url }}" class="social-link"><i class="{{ social.icon }}"></i></a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="related-posts">
+    <h2 class="section-title">{{ website.pages.single_post.related_posts.title }}</h2>
+    <div class="posts-container">
+        {% for post in website.pages.single_post.related_posts.posts %}
+        <article class="post-card">
+            <img src="{{ post.image }}" alt="Post Image">
+            <div class="post-content">
+                <h3>{{ post.title }}</h3>
+                <a href="{{ post.url }}" class="read-more">Read More</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="comments-section">
+    <h2 class="section-title">{{ website.pages.single_post.comments.title }}</h2>
+    <form class="comment-form">
+        <input type="text" placeholder="{{ website.pages.single_post.comments.form.name_placeholder }}" required>
+        <input type="email" placeholder="{{ website.pages.single_post.comments.form.email_placeholder }}" required>
+        <textarea placeholder="{{ website.pages.single_post.comments.form.comment_placeholder }}" rows="5" required></textarea>
+        <button type="submit" class="comment-btn">Post Comment</button>
+    </form>
+</section>
+
+<section class="cta-section">
+    <h2>Stay Updated with Our Latest Posts!</h2>
+    <p>Subscribe to our newsletter & follow us on social media.</p>
+    
+    <div class="cta-buttons">
+        <a href="#" class="cta-btn subscribe-btn">📩 Subscribe</a>
+        <a href="#" class="cta-btn twitter-btn">🐦 Follow on Twitter</a>
+        <a href="#" class="cta-btn facebook-btn">📘 Like on Facebook</a>
+    </div>
+</section>
+{% endblock %}

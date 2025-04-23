@@ -1,0 +1,185 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "pattern": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "Greetings",
+                "What's up?",
+                "Howdy",
+                "Hiya",
+                "Yo",
+                "Hi, how are you?",
+                "Hello, how's it going?"
+            ],
+            "response": [
+                "Hello!",
+                "Hi!",
+                "Hey!",
+                "Good day!",
+                "Good morning to you too!",
+                "Good afternoon!",
+                "Good evening!",
+                "Hi there! How can I assist you?",
+                "Greetings! How may I help you today?",
+                "Not much, what about you?",
+                "Howdy! What can I do for you?",
+                "Hiya! What's going on?",
+                "Yo! Need any assistance?",
+                "Hello! I'm here to help.",
+                "Hi! How's your day going?",
+                "Hey! What's up with you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "pattern": [
+                "Goodbye",
+                "Goodbye!",
+                "Bye",
+                "Bye!",
+                "See you",
+                "See you later",
+                "See ya",
+                "Farewell",
+                "Take care",
+                "So long",
+                "Until next time",
+                "Adios",
+                "Ciao",
+                "Later",
+                "Goodnight"
+            ],
+            "response": [
+                "Goodbye! Have a great day!",
+                "Bye! Take care!",
+                "See you later!",
+                "Farewell! Until we meet again.",
+                "Goodbye! It was nice talking to you.",
+                "Bye! Stay safe!",
+                "See ya! Let me know if you need anything.",
+                "Take care! Have a wonderful day!",
+                "So long! Until next time.",
+                "Until next time! Goodbye!",
+                "Adios! Take care of yourself.",
+                "Ciao! See you soon.",
+                "Later! If you ever need assistance, feel free to ask.",
+                "Goodnight! Sweet dreams.",
+                "Goodbye! Feel free to come back anytime."
+            ]
+        },
+        {
+            "tag": "age",
+            "pattern": [
+                "How old are you?",
+                "What's your age?",
+                "Age?",
+                "How many years have you been around?",
+                "When were you born?",
+                "What's the age of this system?",
+                "Tell me your age",
+                "Do you have an age?",
+                "How long have you existed?"
+            ],
+            "response": [
+                "I don't have an age. I'm a computer program.",
+                "I'm ageless. I exist in the realm of software.",
+                "I don't age. I'm just a piece of code running on servers.",
+                "I don't experience aging. I'm here to assist you.",
+                "No specific age here. I'm here to help with your queries.",
+                "I don't have a birthdate. I'm a virtual assistant.",
+                "Age is not applicable to me. How can I assist you today?",
+                "I'm not bound by time or age. What do you need help with?",
+                "I'm a product of technology, so no age for me!",
+                "As a program, I don't age. Ask me anything you need help with."
+            ]
+        },
+        {
+            "tag": "name",
+            "pattern": [
+                "What's your name?",
+                "Who are you?",
+                "Your name?",
+                "What should I call you?",
+                "May I know your name?",
+                "Who created you?",
+                "Tell me about yourself",
+                "What do people call you?",
+                "Do you have a name?",
+                "What are you called?"
+            ],
+            "response": [
+                "I'm just a computer program, so I don't have a personal name.",
+                "I don't have a personal name. You can call me by my function - Assistant.",
+                "I'm a virtual assistant without a personal name.",
+                "You can call me Assistant. How can I assist you today?",
+                "I don't have a personal name. I'm here to help you with information.",
+                "I don't have a name like humans do. You can refer to me as your virtual assistant.",
+                "I'm nameless, but you can refer to me as Assistant.",
+                "No personal name here. I'm at your service as a virtual assistant.",
+                "I'm a program designed to assist, so no personal name for me.",
+                "You can call me Assistant. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "hours",
+            "pattern": [
+                "What time is it?",
+                "Can you tell me the time?",
+                "Do you know the current time?",
+                "What's the time now?",
+                "Could you inform me of the time?",
+                "What hour is it?",
+                "Tell me the current time",
+                "Do you have the time?",
+                "Can you let me know the time?",
+                "What's the current hour?"
+            ],
+            "response": [
+                "I don't have access to real-time information, so I can't provide the current time.",
+                "I'm sorry, but I don't have the capability to tell you the current time.",
+                "As a virtual assistant, I don't have access to real-time data, including the current time.",
+                "Unfortunately, I can't provide the current time as I don't have that information.",
+                "I don't have the ability to tell time. Is there something else I can help you with?",
+                "I'm not equipped to provide real-time information, including the current time.",
+                "I don't have access to the current time. Can I assist you with something else?",
+                "Sorry, I can't provide the current time. Is there another question I can help with?",
+                "I'm not connected to a clock, so I can't give you the current time.",
+                "Checking the time is beyond my capabilities. How can I assist you otherwise?"
+            ]
+        },
+        {
+            "tag": "shop",
+            "pattern": [
+                "Where can I shop?",
+                "Tell me about shopping places",
+                "Any good shops around?",
+                "Where is the nearest store?",
+                "Recommend a place to shop",
+                "I want to buy something. Any suggestions?",
+                "Are there any malls nearby?",
+                "What stores are in this area?",
+                "Suggest a good shopping spot",
+                "Where can I find a good store?"
+            ],
+            "response": [
+                "There are several shopping options in the area. Can you specify what you're looking for?",
+                "For general shopping, you can explore local malls, markets, or online platforms.",
+                "If you're looking for specific items, let me know, and I can help you find suitable stores.",
+                "Nearby stores may include local shops, malls, and markets. What are you interested in purchasing?",
+                "You can check out local malls, markets, or specific stores based on your preferences.",
+                "Sure! What type of items are you interested in buying? I can provide more targeted suggestions.",
+                "Local malls and markets are good places to explore for shopping. Any specific items you're looking for?",
+                "There are various shopping spots in the area. Do you have any specific preferences or items in mind?",
+                "You can explore nearby malls, markets, or specialty stores depending on your shopping needs.",
+                "Sure, I can help you find a good store. What kind of products are you interested in?"
+            ]
+        }
+    ]
+}

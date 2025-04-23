@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Contact Us{% endblock %}
+
+{% block content %}
+<section class="contact-hero">
+    <div class="overlay">
+        <h1>{{ website.pages.contact.hero.title }}</h1>
+        <p>{{ website.pages.contact.hero.description }}</p>
+    </div>
+</section>
+
+<section class="contact-info">
+    {% for info in website.pages.contact.info %}
+    <div class="info-box">
+        <i class="{{ info.icon }}"></i>
+        <h3>{{ info.title }}</h3>
+        <p>{{ info.text }}</p>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form action="#" method="POST">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<section class="social-media">
+    <h2>{{ website.pages.contact.social.title }}</h2>
+    <div class="social-links">
+        {% for icon in website.pages.contact.social.icons %}
+        <a href="{{ icon.url }}"><i class="{{ icon.icon }}"></i></a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="faq">
+    <h2>{{ website.pages.contact.faqs.title }}</h2>
+    {% for item in website.pages.contact.faqs.items %}
+    <div class="faq-item">
+        <button class="faq-question">{{ item.question }} <span>+</span></button>
+        <div class="faq-answer">{{ item.answer }}</div>
+    </div>
+    {% endfor %}
+</section>
+{% endblock %}

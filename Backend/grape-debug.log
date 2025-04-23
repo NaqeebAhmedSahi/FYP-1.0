@@ -1,0 +1,774 @@
+[2025-03-26T07:29:06.654Z] 
+=== NEW REQUEST ===
+[2025-03-26T07:29:06.668Z] websiteId: 67e2e6637a2feb411476024e
+[2025-03-26T07:29:06.672Z] pageId: 67e2e6807a2feb4114760277
+[2025-03-26T07:29:06.674Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-25T17:34:00.837Z"
+}
+[2025-03-26T07:29:06.709Z] Saved projectData to prompt.json
+[2025-03-26T07:29:06.715Z] Page status is existing - processing template
+[2025-03-26T07:29:06.726Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T07:29:06.727Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T07:29:06.730Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T07:33:54.477Z] 
+=== NEW REQUEST ===
+[2025-03-26T07:33:54.482Z] websiteId: 67e2e6637a2feb411476024e
+[2025-03-26T07:33:54.484Z] pageId: 67e2e6807a2feb4114760277
+[2025-03-26T07:33:54.487Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-25T17:34:00.837Z"
+}
+[2025-03-26T07:33:54.501Z] Saved projectData to prompt.json
+[2025-03-26T07:33:54.502Z] Page status is existing - processing template
+[2025-03-26T07:33:54.534Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T07:33:54.539Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T07:33:54.546Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T08:21:59.511Z] 
+=== NEW REQUEST ===
+[2025-03-26T08:21:59.520Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T08:21:59.521Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T08:21:59.522Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T08:21:59.538Z] Saved projectData to prompt.json
+[2025-03-26T08:21:59.539Z] Page status is existing - processing template
+[2025-03-26T08:21:59.546Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T08:21:59.551Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T08:21:59.554Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T08:22:00.462Z] Removed temporary file: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T08:22:00.470Z] Template rendering successful
+[2025-03-26T08:22:00.474Z] Rendered HTML length: 14567 characters
+[2025-03-26T08:22:28.501Z] 
+=== NEW REQUEST ===
+[2025-03-26T08:22:28.503Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T08:22:28.504Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T08:22:28.505Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T08:22:28.520Z] Saved projectData to prompt.json
+[2025-03-26T08:22:28.521Z] Page status is new - returning basic response
+[2025-03-26T08:23:05.933Z] 
+=== NEW REQUEST ===
+[2025-03-26T08:23:05.936Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T08:23:05.940Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T08:23:05.946Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T08:23:05.958Z] Saved projectData to prompt.json
+[2025-03-26T08:23:05.970Z] Page status is existing - processing template
+[2025-03-26T08:23:05.982Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T08:23:05.983Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T08:23:05.984Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T08:24:18.136Z] 
+=== NEW REQUEST ===
+[2025-03-26T08:24:18.147Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T08:24:18.151Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T08:24:18.152Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T08:24:18.199Z] Saved projectData to prompt.json
+[2025-03-26T08:24:18.201Z] Page status is existing - processing template
+[2025-03-26T08:24:18.233Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T08:24:18.245Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T08:24:18.247Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T08:24:26.110Z] 
+=== NEW REQUEST ===
+[2025-03-26T08:24:26.111Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T08:24:26.112Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T08:24:26.114Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T08:24:26.132Z] Saved projectData to prompt.json
+[2025-03-26T08:24:26.134Z] Page status is existing - processing template
+[2025-03-26T08:24:26.146Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T08:24:26.147Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T08:24:26.148Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T08:59:43.561Z] 
+=== NEW REQUEST ===
+[2025-03-26T08:59:43.570Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T08:59:43.573Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T08:59:43.577Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T08:59:43.597Z] Saved projectData to prompt.json
+[2025-03-26T08:59:43.604Z] Page status is existing - processing template
+[2025-03-26T08:59:43.615Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T08:59:43.618Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T08:59:43.623Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T08:59:58.771Z] 
+=== NEW REQUEST ===
+[2025-03-26T08:59:58.773Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T08:59:58.775Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T08:59:58.776Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T08:59:58.843Z] Saved projectData to prompt.json
+[2025-03-26T08:59:58.844Z] Page status is existing - processing template
+[2025-03-26T08:59:58.862Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T08:59:58.863Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T08:59:58.869Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T09:00:19.667Z] 
+=== NEW REQUEST ===
+[2025-03-26T09:00:19.669Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T09:00:19.670Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T09:00:19.670Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T09:00:19.685Z] Saved projectData to prompt.json
+[2025-03-26T09:00:19.687Z] Page status is existing - processing template
+[2025-03-26T09:00:19.700Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T09:00:19.702Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T09:00:19.703Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T09:00:57.838Z] 
+=== NEW REQUEST ===
+[2025-03-26T09:00:57.842Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T09:00:57.849Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T09:00:57.852Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T09:00:57.883Z] Saved projectData to prompt.json
+[2025-03-26T09:00:57.887Z] Page status is existing - processing template
+[2025-03-26T09:00:57.984Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T09:00:57.986Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T09:00:57.987Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T09:01:30.654Z] 
+=== NEW REQUEST ===
+[2025-03-26T09:01:30.655Z] websiteId: 67e3b8fd1c11526378e5f31d
+[2025-03-26T09:01:30.656Z] pageId: 67e3b9251c11526378e5f347
+[2025-03-26T09:01:30.657Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T09:01:30.671Z] Saved projectData to prompt.json
+[2025-03-26T09:01:30.672Z] Page status is existing - processing template
+[2025-03-26T09:01:30.684Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T09:01:30.685Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T09:01:30.686Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-03-26T09:03:48.030Z] 
+=== NEW REQUEST ===
+[2025-03-26T09:03:48.038Z] websiteId: 67e3c2d2646d6d727c0139c6
+[2025-03-26T09:03:48.041Z] pageId: 67e3c2f1646d6d727c013a14
+[2025-03-26T09:03:48.044Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-03-26T08:21:54.393Z"
+}
+[2025-03-26T09:03:48.057Z] Saved projectData to prompt.json
+[2025-03-26T09:03:48.063Z] Page status is existing - processing template
+[2025-03-26T09:03:48.075Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-03-26T09:03:48.076Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-03-26T09:03:48.077Z] Executing command: "python" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py" "C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html"
+[2025-04-04T16:41:05.272Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:41:05.275Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:41:05.278Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:41:05.280Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:41:05.305Z] WARNING: No prompt provided in projectData
+[2025-04-04T16:41:05.318Z] Saved projectData to prompt.json
+[2025-04-04T16:41:05.322Z] Page status is existing - processing template
+[2025-04-04T16:41:05.334Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:41:05.335Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:41:07.204Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:41:07.205Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:41:07.206Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:41:07.207Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:41:07.253Z] WARNING: No prompt provided in projectData
+[2025-04-04T16:41:07.256Z] Saved projectData to prompt.json
+[2025-04-04T16:41:07.258Z] Page status is existing - processing template
+[2025-04-04T16:41:07.270Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:41:07.271Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:42:08.320Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:42:08.322Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:42:08.323Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:42:08.324Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:42:08.333Z] WARNING: No prompt provided in projectData
+[2025-04-04T16:42:08.334Z] Saved projectData to prompt.json
+[2025-04-04T16:42:08.335Z] Page status is existing - processing template
+[2025-04-04T16:42:08.342Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:42:08.343Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:42:10.420Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:42:10.421Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:42:10.422Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:42:10.423Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:42:10.442Z] WARNING: No prompt provided in projectData
+[2025-04-04T16:42:10.444Z] Saved projectData to prompt.json
+[2025-04-04T16:42:10.445Z] Page status is existing - processing template
+[2025-04-04T16:42:10.455Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:42:10.456Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:43:16.210Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:43:16.212Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:43:16.215Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:43:16.216Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:43:16.228Z] WARNING: No prompt provided in projectData
+[2025-04-04T16:43:16.230Z] Saved projectData to prompt.json
+[2025-04-04T16:43:16.230Z] Page status is existing - processing template
+[2025-04-04T16:43:16.239Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:43:16.240Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:43:18.497Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:43:18.498Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:43:18.500Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:43:18.501Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:43:18.524Z] WARNING: No prompt provided in projectData
+[2025-04-04T16:43:18.527Z] Saved projectData to prompt.json
+[2025-04-04T16:43:18.527Z] Page status is existing - processing template
+[2025-04-04T16:43:18.562Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:43:18.563Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:43:54.124Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:43:54.126Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:43:54.127Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:43:54.130Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:43:54.143Z] Saved projectData to prompt.json
+[2025-04-04T16:43:54.146Z] Page status is existing - processing template
+[2025-04-04T16:43:54.162Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:43:54.163Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:43:56.207Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:43:56.209Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:43:56.210Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:43:56.210Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:43:56.233Z] Saved projectData to prompt.json
+[2025-04-04T16:43:56.234Z] Page status is existing - processing template
+[2025-04-04T16:43:56.245Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:43:56.246Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:47:34.952Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:47:34.955Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:47:34.958Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:47:34.960Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:47:34.978Z] Saved projectData to prompt.json
+[2025-04-04T16:47:34.982Z] Page status is existing - processing template
+[2025-04-04T16:47:34.994Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:47:36.744Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:47:36.746Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:47:36.748Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:47:36.749Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:47:36.774Z] Saved projectData to prompt.json
+[2025-04-04T16:47:36.775Z] Page status is existing - processing template
+[2025-04-04T16:47:36.781Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:52:09.957Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:52:09.959Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:52:09.960Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:52:09.961Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:52:09.980Z] Saved projectData to prompt.json
+[2025-04-04T16:52:09.985Z] Page status is existing - processing template
+[2025-04-04T16:52:10.012Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:52:10.020Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:52:12.075Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:52:12.077Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:52:12.078Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:52:12.079Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:52:12.223Z] Saved projectData to prompt.json
+[2025-04-04T16:52:12.227Z] Page status is existing - processing template
+[2025-04-04T16:52:12.262Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:52:12.270Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:53:54.731Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:53:54.734Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:53:54.735Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:53:54.736Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:53:54.754Z] Saved projectData to prompt.json
+[2025-04-04T16:53:54.755Z] Page status is existing - processing template
+[2025-04-04T16:53:54.786Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:53:54.787Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:53:54.806Z] TOP LEVEL ERROR: ReferenceError: template_file is not defined
+    at _callee$ (C:/Users/naqee/OneDrive1/Desktop/FYP Startup/Final Implementation/Backend/routes/grapes.js:90:72)
+    at tryCatch (C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\node_modules\babel-runtime\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\node_modules\babel-runtime\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\node_modules\babel-runtime\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-04-04T16:56:04.807Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:56:04.808Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:56:04.809Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:56:04.809Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:56:04.824Z] Saved projectData to prompt.json
+[2025-04-04T16:56:04.825Z] Page status is existing - processing template
+[2025-04-04T16:56:04.834Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:56:04.835Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:56:06.669Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:56:06.673Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:56:06.675Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:56:06.678Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:56:06.763Z] Saved projectData to prompt.json
+[2025-04-04T16:56:06.770Z] Page status is existing - processing template
+[2025-04-04T16:56:06.780Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:56:06.786Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:57:44.550Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:57:44.551Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:57:44.552Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:57:44.553Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:57:44.564Z] Saved projectData to prompt.json
+[2025-04-04T16:57:44.565Z] Page status is existing - processing template
+[2025-04-04T16:57:44.575Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:57:44.576Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:57:46.893Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:57:46.894Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:57:46.895Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:57:46.896Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:57:46.919Z] Saved projectData to prompt.json
+[2025-04-04T16:57:46.919Z] Page status is existing - processing template
+[2025-04-04T16:57:46.928Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:57:46.929Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:58:10.366Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:58:10.367Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:58:10.368Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:58:10.369Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:58:10.382Z] Saved projectData to prompt.json
+[2025-04-04T16:58:10.382Z] Page status is existing - processing template
+[2025-04-04T16:58:10.392Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:58:10.393Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T16:58:12.428Z] 
+=== NEW REQUEST ===
+[2025-04-04T16:58:12.430Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T16:58:12.430Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T16:58:12.431Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T16:58:12.481Z] Saved projectData to prompt.json
+[2025-04-04T16:58:12.484Z] Page status is existing - processing template
+[2025-04-04T16:58:12.492Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T16:58:12.493Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\render_template.py
+[2025-04-04T17:00:06.605Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:00:06.606Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:00:06.608Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:00:06.609Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:00:06.636Z] Saved projectData to prompt.json
+[2025-04-04T17:00:06.642Z] Page status is existing - processing template
+[2025-04-04T17:00:06.659Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:00:06.660Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\newPython.py
+[2025-04-04T17:00:08.544Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:00:08.545Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:00:08.548Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:00:08.549Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:00:08.595Z] Saved projectData to prompt.json
+[2025-04-04T17:00:08.596Z] Page status is existing - processing template
+[2025-04-04T17:00:08.609Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:00:08.610Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\newPython.py
+[2025-04-04T17:00:48.349Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:00:48.351Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:00:48.353Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:00:48.354Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:00:48.369Z] Saved projectData to prompt.json
+[2025-04-04T17:00:48.369Z] Page status is existing - processing template
+[2025-04-04T17:00:48.377Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:00:48.379Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\routes\newPython.py
+[2025-04-04T17:00:48.491Z] Python process exited with code 2
+[2025-04-04T17:00:48.493Z] Removed temporary file after error: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:00:48.497Z] Python script failed: Python script failed with code 2
+[2025-04-04T17:01:16.583Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:01:16.584Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:01:16.585Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:01:16.587Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:01:16.606Z] Saved projectData to prompt.json
+[2025-04-04T17:01:16.607Z] Page status is existing - processing template
+[2025-04-04T17:01:16.634Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:01:16.641Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\newPython.py
+[2025-04-04T17:01:18.705Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:01:18.707Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:01:18.709Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:01:18.710Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:01:18.738Z] Saved projectData to prompt.json
+[2025-04-04T17:01:18.739Z] Page status is existing - processing template
+[2025-04-04T17:01:18.751Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:01:18.752Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\newPython.py
+[2025-04-04T17:02:54.611Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:02:54.613Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:02:54.615Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:02:54.616Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:02:54.631Z] Saved projectData to prompt.json
+[2025-04-04T17:02:54.632Z] Page status is existing - processing template
+[2025-04-04T17:02:54.644Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:02:54.645Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\newPython.py
+[2025-04-04T17:02:57.179Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:02:57.181Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:02:57.182Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:02:57.182Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:02:57.204Z] Saved projectData to prompt.json
+[2025-04-04T17:02:57.205Z] Page status is existing - processing template
+[2025-04-04T17:02:57.213Z] Saved HTML content to: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\index.html
+[2025-04-04T17:02:57.214Z] Starting Python process with script: C:\Users\naqee\OneDrive1\Desktop\FYP Startup\Final Implementation\Backend\newPython.py
+[2025-04-04T17:10:11.407Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:10:11.433Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:10:11.435Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:10:11.436Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:10:11.454Z] Saved projectData to prompt.json
+[2025-04-04T17:10:11.456Z] Page status is existing - processing with Python script
+[2025-04-04T17:10:11.575Z] Python script exited with code 2: python: can't open file 'C:\\Users\\naqee\\OneDrive1\\Desktop\\FYP Startup\\Final Implementation\\render_template.py': [Errno 2] No such file or directory
+
+[2025-04-04T17:10:37.972Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:10:37.974Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:10:37.975Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:10:37.976Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:10:37.988Z] Saved projectData to prompt.json
+[2025-04-04T17:10:37.989Z] Page status is existing - processing with Python script
+[2025-04-04T17:10:39.853Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:10:39.854Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:10:39.857Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:10:39.858Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:10:39.889Z] Saved projectData to prompt.json
+[2025-04-04T17:10:39.889Z] Page status is existing - processing with Python script
+[2025-04-04T17:12:05.888Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:12:05.895Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:12:05.896Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:12:05.898Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:12:05.924Z] Saved projectData to prompt.json
+[2025-04-04T17:12:05.925Z] Page status is existing - processing with Python script
+[2025-04-04T17:12:07.846Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:12:07.847Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:12:07.848Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:12:07.850Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:12:07.901Z] Saved projectData to prompt.json
+[2025-04-04T17:12:07.904Z] Page status is existing - processing with Python script
+[2025-04-04T17:16:30.643Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:16:30.648Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:16:30.649Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:16:30.650Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:16:30.660Z] Saved projectData to prompt.json
+[2025-04-04T17:16:30.661Z] Page status is existing - processing with Python script
+[2025-04-04T17:16:52.949Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:16:52.950Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:16:52.951Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:16:52.952Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:16:52.964Z] Saved projectData to prompt.json
+[2025-04-04T17:16:52.964Z] Page status is existing - processing with Python script
+[2025-04-04T17:16:55.052Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:16:55.053Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:16:55.054Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:16:55.055Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:16:55.076Z] Saved projectData to prompt.json
+[2025-04-04T17:16:55.077Z] Page status is existing - processing with Python script
+[2025-04-04T17:18:21.275Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:18:21.276Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:18:21.277Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:18:21.278Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:18:21.292Z] Saved projectData to prompt.json
+[2025-04-04T17:18:21.298Z] Page status is existing - processing with Python script
+[2025-04-04T17:18:23.113Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:18:23.114Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:18:23.116Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:18:23.117Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T16:40:59.862Z"
+}
+[2025-04-04T17:18:23.140Z] Saved projectData to prompt.json
+[2025-04-04T17:18:23.141Z] Page status is existing - processing with Python script
+[2025-04-04T17:22:57.597Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:22:57.599Z] websiteId: undefined
+[2025-04-04T17:22:57.600Z] pageId: undefined
+[2025-04-04T17:22:57.600Z] projectData: undefined
+[2025-04-04T17:22:57.614Z] ERROR: Page not found with ID: undefined
+[2025-04-04T17:23:42.334Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:23:42.337Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:23:42.338Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:23:42.339Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T17:22:53.329Z"
+}
+[2025-04-04T17:23:42.351Z] Saved projectData to prompt.json
+[2025-04-04T17:23:42.355Z] Page status is existing - processing with Python script
+[2025-04-04T17:23:44.703Z] 
+=== NEW REQUEST ===
+[2025-04-04T17:23:44.704Z] websiteId: 67e4d8a57b3c0e2088fe3ff1
+[2025-04-04T17:23:44.705Z] pageId: 67e4d8d67b3c0e2088fe4041
+[2025-04-04T17:23:44.706Z] projectData: {
+  "projectType": "prompt1",
+  "projectDescription": "E-commerce BuilderCreate a powerful online store with AI-generated layouts, product pages, and shopping cart functionality.",
+  "customPrompt": "clothing store",
+  "timestamp": "2025-04-04T17:22:53.329Z"
+}
+[2025-04-04T17:23:44.726Z] Saved projectData to prompt.json
+[2025-04-04T17:23:44.727Z] Page status is existing - processing with Python script
+[2025-04-04T18:11:58.109Z] 
+=== NEW REQUEST ===
+[2025-04-04T18:11:58.112Z] websiteId: undefined
+[2025-04-04T18:11:58.118Z] pageId: undefined
+[2025-04-04T18:11:58.127Z] projectData: undefined
+[2025-04-04T18:11:58.143Z] ERROR: Page not found with ID: undefined
+[2025-04-04T18:23:57.636Z] 
+=== NEW REQUEST ===
+[2025-04-04T18:23:57.637Z] websiteId: undefined
+[2025-04-04T18:23:57.638Z] pageId: undefined
+[2025-04-04T18:23:57.639Z] projectData: undefined
+[2025-04-04T18:23:57.645Z] ERROR: Page not found with ID: undefined
+[2025-04-04T18:25:56.730Z] 
+=== NEW REQUEST ===
+[2025-04-04T18:25:56.731Z] websiteId: undefined
+[2025-04-04T18:25:56.732Z] pageId: undefined
+[2025-04-04T18:25:56.733Z] projectData: undefined
+[2025-04-04T18:25:56.741Z] ERROR: Page not found with ID: undefined
+[2025-04-04T18:47:02.111Z] 
+=== NEW REQUEST ===
+[2025-04-04T18:47:02.114Z] websiteId: undefined
+[2025-04-04T18:47:02.115Z] pageId: undefined
+[2025-04-04T18:47:02.115Z] projectData: undefined
+[2025-04-04T18:47:02.122Z] ERROR: Page not found with ID: undefined
+[2025-04-04T18:47:05.762Z] 
+=== NEW REQUEST ===
+[2025-04-04T18:47:05.764Z] websiteId: undefined
+[2025-04-04T18:47:05.766Z] pageId: undefined
+[2025-04-04T18:47:05.768Z] projectData: undefined
+[2025-04-04T18:47:05.777Z] ERROR: Page not found with ID: undefined
+[2025-04-04T18:47:45.368Z] 
+=== NEW REQUEST ===
+[2025-04-04T18:47:45.370Z] websiteId: undefined
+[2025-04-04T18:47:45.377Z] pageId: undefined
+[2025-04-04T18:47:45.384Z] projectData: undefined
+[2025-04-04T18:47:45.395Z] ERROR: Page not found with ID: undefined
+[2025-04-15T11:28:42.624Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:30:00.632Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:34:22.624Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:37:21.614Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:37:43.632Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:49:25.631Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:56:08.817Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:56:09.629Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:57:02.849Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:58:17.607Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T11:58:38.633Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656
+[2025-04-15T12:00:09.635Z] ERROR: Page not found with ID: 67fdeeef685cd90dd01fd656

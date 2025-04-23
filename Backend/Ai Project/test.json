@@ -1,0 +1,615 @@
+{
+    "tag": "clothing_store",
+    "pattern": [
+        "Build a website for a clothing store",
+        "Create a site for a fashion business",
+        "I need a website for my clothing brand",
+        "Design a platform for online clothing shopping",
+        "Develop a clothing catalog website",
+        "Build a fashion e-commerce site",
+        "Create a website for a boutique",
+        "I want a site for my clothing line",
+        "Design a clothing showcase website",
+        "Develop an online clothing store",
+        "Build a website for a men's clothing store",
+        "Create a site for women's fashion",
+        "I need a website for kids' clothing",
+        "Design a platform for online fashion shopping",
+        "Develop a website for a unisex clothing brand",
+        "Build a site for a luxury fashion brand",
+        "Create a website for a streetwear brand",
+        "I want a site for my seasonal clothing collection",
+        "Design a platform for a sustainable fashion brand",
+        "Develop a website for a custom clothing business"
+    ],
+    "response": [
+        {
+            "website": {
+                "title": "Clothing Store",
+                "stylesheets": [
+                    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
+                    "https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;600&display=swap",
+                    "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap",
+                    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css",
+                    "./style.css",
+                    "./catalog.css"
+                ],
+                "navbar": {
+                    "brand": "ClothingStore",
+                    "links": [
+                        {
+                            "name": "Home",
+                            "url": "./index.html"
+                        },
+                        {
+                            "name": "Shop",
+                            "url": "./shop.html"
+                        },
+                        {
+                            "name": "About Us",
+                            "url": "./aboutUs.html"
+                        },
+                        {
+                            "name": "Contact",
+                            "url": "./contact.html"
+                        }
+                    ]
+                },
+                "indexPage": {
+                    "carousel": [
+                        {
+                            "image": "./clothing1.jpg",
+                            "title": "Welcome  to Our New Clothing Store",
+                            "subtitle": "Discover the latest trends in fashion"
+                        },
+                        {
+                            "image": "./clothing2.jpg",
+                            "title": "New Arrivals",
+                            "subtitle": "Shop our exclusive collection"
+                        },
+                        {
+                            "image": "./clothing3.jpg",
+                            "title": "Seasonal Styles",
+                            "subtitle": "Find the perfect outfit for every occasion"
+                        }
+                    ],
+                    "collections": {
+                        "title": "Shop by Category",
+                        "categories": [
+                            {
+                                "image": "./men.jpg",
+                                "title": "Men's Clothing",
+                                "description": "Explore our collection of men's fashion, from casual wear to formal attire.",
+                                "url": "./men.html"
+                            },
+                            {
+                                "image": "./women.jpg",
+                                "title": "Women's Clothing",
+                                "description": "Discover stylish outfits for women, perfect for any occasion.",
+                                "url": "./women.html"
+                            },
+                            {
+                                "image": "./kids.jpg",
+                                "title": "Kids' Clothing",
+                                "description": "Adorable and comfortable clothing for kids of all ages.",
+                                "url": "./kids.html"
+                            }
+                        ]
+                    },
+                    "highlights": [
+                        {
+                            "icon": "fas fa-tags",
+                            "title": "Exclusive Deals",
+                            "description": "Enjoy discounts on our latest collections."
+                        },
+                        {
+                            "icon": "fas fa-shipping-fast",
+                            "title": "Fast Shipping",
+                            "description": "Get your orders delivered quickly and reliably."
+                        },
+                        {
+                            "icon": "fas fa-undo",
+                            "title": "Easy Returns",
+                            "description": "Hassle-free returns within 30 days."
+                        },
+                        {
+                            "icon": "fas fa-star",
+                            "title": "Premium Quality",
+                            "description": "We use only the finest materials for our clothing."
+                        }
+                    ],
+                    "testimonials": [
+                        {
+                            "quote": "I love the quality and style of the clothes! Highly recommend this store.",
+                            "image": "./anonymous.jpg",
+                            "name": "John Doe",
+                            "role": "Happy Customer"
+                        },
+                        {
+                            "quote": "Great selection and fast delivery. Will definitely shop here again!",
+                            "image": "./anonymous.jpg",
+                            "name": "Jane Smith",
+                            "role": "Fashion Enthusiast"
+                        },
+                        {
+                            "quote": "Perfect outfits for my kids. They love the designs!",
+                            "image": "./anonymous.jpg",
+                            "name": "Emily Johnson",
+                            "role": "Parent"
+                        }
+                    ],
+                    "gallery": [
+                        {
+                            "image": "./gallery1.jpg",
+                            "title": "Casual Wear",
+                            "description": "Explore our range of comfortable and stylish casual wear."
+                        },
+                        {
+                            "image": "./gallery2.jpg",
+                            "title": "Formal Attire",
+                            "description": "Elegant and sophisticated outfits for formal occasions."
+                        },
+                        {
+                            "image": "./gallery3.jpg",
+                            "title": "Seasonal Collections",
+                            "description": "Stay trendy with our seasonal fashion lines."
+                        }
+                    ]
+                },
+                "shopPage": {
+                    "title": "Shop",
+                    "categories": [
+                        {
+                            "name": "Men's Clothing",
+                            "items1": [
+                                {
+                                    "image": "./men1.jpg",
+                                    "title": "Men's T-Shirt",
+                                    "description": "Comfortable and stylish t-shirts for men.",
+                                    "price": "$25.99"
+                                },
+                                {
+                                    "image": "./men2.jpg",
+                                    "title": "Men's Jeans",
+                                    "description": "Durable and fashionable jeans for men.",
+                                    "price": "$45.99"
+                                },
+                                {
+                                    "image": "./men3.jpg",
+                                    "title": "Men's Jacket",
+                                    "description": "Warm and trendy jackets for men.",
+                                    "price": "$65.99"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Women's Clothing",
+                            "items1": [
+                                {
+                                    "image": "./women1.jpg",
+                                    "title": "Women's Dress",
+                                    "description": "Elegant dresses for women.",
+                                    "price": "$35.99"
+                                },
+                                {
+                                    "image": "./women2.jpg",
+                                    "title": "Women's Blouse",
+                                    "description": "Stylish blouses for women.",
+                                    "price": "$29.99"
+                                },
+                                {
+                                    "image": "./women3.jpg",
+                                    "title": "Women's Skirt",
+                                    "description": "Trendy skirts for women.",
+                                    "price": "$39.99"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kids' Clothing",
+                            "items1": [
+                                {
+                                    "image": "./kids1.jpg",
+                                    "title": "Kids' T-Shirt",
+                                    "description": "Cute and comfortable t-shirts for kids.",
+                                    "price": "$15.99"
+                                },
+                                {
+                                    "image": "./kids2.jpg",
+                                    "title": "Kids' Jeans",
+                                    "description": "Durable and stylish jeans for kids.",
+                                    "price": "$25.99"
+                                },
+                                {
+                                    "image": "./kids3.jpg",
+                                    "title": "Kids' Jacket",
+                                    "description": "Warm and cozy jackets for kids.",
+                                    "price": "$35.99"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "contactPage": {
+                    "title": "Contact Us",
+                    "stylesheets": [
+                        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
+                        "https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;600&display=swap",
+                        "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap",
+                        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css",
+                        "./style.css",
+                        "./contact.css"
+                    ],
+                    "navbar": {
+                        "brand": "ClothingStore",
+                        "links": [
+                            {
+                                "name": "Home",
+                                "url": "./index.html"
+                            },
+                            {
+                                "name": "Shop",
+                                "url": "./shop.html"
+                            },
+                            {
+                                "name": "About Us",
+                                "url": "./aboutUs.html"
+                            },
+                            {
+                                "name": "Contact",
+                                "url": "./contact.html"
+                            }
+                        ]
+                    },
+                    "contactSection": {
+                        "title": "Get in Touch",
+                        "contactInfo": {
+                            "description": "We'd love to hear from you! Whether you have a question, feedback, or need assistance, feel free to reach out.",
+                            "details": [
+                                {
+                                    "icon": "📞",
+                                    "label": "Phone",
+                                    "value": "+1 234 567 890"
+                                },
+                                {
+                                    "icon": "📧",
+                                    "label": "Email",
+                                    "value": "contact@clothingstore.com"
+                                },
+                                {
+                                    "icon": "🏠",
+                                    "label": "Address",
+                                    "value": "1234 Fashion Ave, Style City, SC 56789"
+                                },
+                                {
+                                    "icon": "⏰",
+                                    "label": "Hours",
+                                    "value": "Mon-Sun: 9:00 AM - 8:00 PM"
+                                }
+                            ]
+                        },
+                        "contactForm": {
+                            "title": "Ask a Question",
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "id": "name",
+                                    "label": "Name",
+                                    "placeholder": "Enter your name",
+                                    "required": true
+                                },
+                                {
+                                    "type": "email",
+                                    "id": "email",
+                                    "label": "Email",
+                                    "placeholder": "Enter your email",
+                                    "required": true
+                                },
+                                {
+                                    "type": "textarea",
+                                    "id": "message",
+                                    "label": "Message",
+                                    "placeholder": "Your message",
+                                    "rows": 5,
+                                    "required": true
+                                }
+                            ],
+                            "button": {
+                                "text": "Send Message",
+                                "class": "btn-custom"
+                            }
+                        },
+                        "map": {
+                            "title": "Find Us Here",
+                            "iframe": "https://www.google.com/maps/embed?pb=...",
+                            "width": "100%",
+                            "height": "300",
+                            "style": "border:0;"
+                        },
+                        "socialMedia": {
+                            "title": "Follow Us",
+                            "links": [
+                                {
+                                    "icon": "fab fa-facebook",
+                                    "text": "Facebook",
+                                    "url": "#"
+                                },
+                                {
+                                    "icon": "fab fa-instagram",
+                                    "text": "Instagram",
+                                    "url": "#"
+                                },
+                                {
+                                    "icon": "fab fa-twitter",
+                                    "text": "Twitter",
+                                    "url": "#"
+                                },
+                                {
+                                    "icon": "fab fa-linkedin",
+                                    "text": "LinkedIn",
+                                    "url": "#"
+                                }
+                            ]
+                        }
+                    },
+                    "footer": {
+                        "logo": {
+                            "image": "./logo.jpg",
+                            "text": "ClothingStore"
+                        },
+                        "navigation": [
+                            {
+                                "name": "Home",
+                                "url": "#home"
+                            },
+                            {
+                                "name": "Shop",
+                                "url": "#shop"
+                            },
+                            {
+                                "name": "About Us",
+                                "url": "#about"
+                            },
+                            {
+                                "name": "Contact",
+                                "url": "#contact"
+                            }
+                        ],
+                        "socialMedia": [
+                            {
+                                "icon": "fab fa-facebook-f",
+                                "url": "#"
+                            },
+                            {
+                                "icon": "fab fa-twitter",
+                                "url": "#"
+                            },
+                            {
+                                "icon": "fab fa-instagram",
+                                "url": "#"
+                            }
+                        ]
+                    }
+                },
+                "aboutPage": {
+                    "title": "About Us",
+                    "stylesheets": [
+                        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
+                        "https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;600&display=swap",
+                        "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap",
+                        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css",
+                        "./style.css",
+                        "./aboutUs.css"
+                    ],
+                    "navbar": {
+                        "brand": "ClothingStore",
+                        "links": [
+                            {
+                                "name": "Home",
+                                "url": "./index.html"
+                            },
+                            {
+                                "name": "Shop",
+                                "url": "./shop.html"
+                            },
+                            {
+                                "name": "About Us",
+                                "url": "./aboutUs.html"
+                            },
+                            {
+                                "name": "Contact",
+                                "url": "./contact.html"
+                            }
+                        ]
+                    },
+                    "aboutSection": {
+                        "title": "About Us",
+                        "content": {
+                            "story": {
+                                "title": "Our Story",
+                                "description": "Welcome to ClothingStore, where fashion meets comfort. Established in 2023, we have been dedicated to providing high-quality clothing for men, women, and kids. Our mission is to make fashion accessible and enjoyable for everyone."
+                            },
+                            "features": {
+                                "title": "What We Offer",
+                                "items1": [
+                                    "🌟 Trendy and Affordable Clothing",
+                                    "👕 Wide Range of Sizes and Styles",
+                                    "🚚 Fast and Reliable Shipping",
+                                    "🔄 Easy Returns and Exchanges",
+                                    "💎 Premium Quality Materials"
+                                ]
+                            },
+                            "values": {
+                                "title": "Our Values",
+                                "description": "At ClothingStore, we believe in sustainability and ethical fashion. We source our materials responsibly and ensure fair labor practices in our supply chain."
+                            },
+                            "button": {
+                                "text": "Learn More",
+                                "class": "btn-custom"
+                            }
+                        },
+                        "image": {
+                            "src": "./about.jpg",
+                            "alt": "Clothing Store Team"
+                        }
+                    },
+                    "footer": {
+                        "logo": {
+                            "image": "./logo.jpg",
+                            "text": "ClothingStore"
+                        },
+                        "navigation": [
+                            {
+                                "name": "Home",
+                                "url": "#home"
+                            },
+                            {
+                                "name": "Shop",
+                                "url": "#shop"
+                            },
+                            {
+                                "name": "About Us",
+                                "url": "#about"
+                            },
+                            {
+                                "name": "Contact",
+                                "url": "#contact"
+                            }
+                        ],
+                        "socialMedia": [
+                            {
+                                "icon": "fab fa-facebook-f",
+                                "url": "#"
+                            },
+                            {
+                                "icon": "fab fa-twitter",
+                                "url": "#"
+                            },
+                            {
+                                "icon": "fab fa-instagram",
+                                "url": "#"
+                            }
+                        ]
+                    }
+                },
+                "orderPage": {
+                    "title": "Order Now - ClothingStore",
+                    "stylesheets": [
+                        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
+                        "https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;600&display=swap",
+                        "./order.css",
+                        "./style.css"
+                    ],
+                    "navbar": {
+                        "brand": "ClothingStore",
+                        "links": [
+                            {
+                                "name": "Home",
+                                "url": "./index.html"
+                            },
+                            {
+                                "name": "Shop",
+                                "url": "./shop.html"
+                            },
+                            {
+                                "name": "About Us",
+                                "url": "./aboutUs.html"
+                            },
+                            {
+                                "name": "Contact",
+                                "url": "./contact.html"
+                            }
+                        ]
+                    },
+                    "orderSection": {
+                        "title": "Place Your Order",
+                        "menuItems": [
+                            {
+                                "image": "./men1.jpg",
+                                "name": "Men's T-Shirt",
+                                "price": "$25.99"
+                            },
+                            {
+                                "image": "./women1.jpg",
+                                "name": "Women's Dress",
+                                "price": "$35.99"
+                            },
+                            {
+                                "image": "./kids1.jpg",
+                                "name": "Kids' T-Shirt",
+                                "price": "$15.99"
+                            }
+                        ],
+                        "orderForm": {
+                            "title": "Your Details",
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "placeholder": "Full Name",
+                                    "required": true
+                                },
+                                {
+                                    "type": "email",
+                                    "placeholder": "Email Address",
+                                    "required": true
+                                },
+                                {
+                                    "type": "tel",
+                                    "placeholder": "Phone Number",
+                                    "required": true
+                                },
+                                {
+                                    "type": "textarea",
+                                    "placeholder": "Delivery Address",
+                                    "required": true
+                                }
+                            ],
+                            "button": {
+                                "text": "Confirm Order",
+                                "class": "btn-custom"
+                            }
+                        }
+                    },
+                    "footer": {
+                        "logo": {
+                            "image": "./logo.jpg",
+                            "text": "ClothingStore"
+                        },
+                        "navigation": [
+                            {
+                                "name": "Home",
+                                "url": "#home"
+                            },
+                            {
+                                "name": "Shop",
+                                "url": "#shop"
+                            },
+                            {
+                                "name": "About Us",
+                                "url": "#about"
+                            },
+                            {
+                                "name": "Contact",
+                                "url": "#contact"
+                            }
+                        ],
+                        "socialMedia": [
+                            {
+                                "icon": "fab fa-facebook-f",
+                                "url": "#"
+                            },
+                            {
+                                "icon": "fab fa-twitter",
+                                "url": "#"
+                            },
+                            {
+                                "icon": "fab fa-instagram",
+                                "url": "#"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+},

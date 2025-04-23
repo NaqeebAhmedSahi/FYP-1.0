@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    
+    <link href="./style.css" rel="stylesheet" />
+    
+    <link href="./catalog.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">ClothingStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shop.html">Shop</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutUs.html">About Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <img src="./clothing1.jpg" class="d-block w-100" alt="Welcome to Our Clothing Store">
+                <div class="carousel-caption">
+                    <h2 class="slide-text">Welcome to Our Clothing Store</h2>
+                    <p class="slide-subtext">Discover the latest trends in fashion</p>
+                    <form class="d-flex justify-content-center search-form">
+                        <input class="form-control search-input" type="search" placeholder="Search for dishes, locations..." aria-label="Search">
+                        <button class="btn btn-custom search-button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="carousel-item ">
+                <img src="./clothing2.jpg" class="d-block w-100" alt="New Arrivals">
+                <div class="carousel-caption">
+                    <h2 class="slide-text">New Arrivals</h2>
+                    <p class="slide-subtext">Shop our exclusive collection</p>
+                    <form class="d-flex justify-content-center search-form">
+                        <input class="form-control search-input" type="search" placeholder="Search for dishes, locations..." aria-label="Search">
+                        <button class="btn btn-custom search-button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="carousel-item ">
+                <img src="./clothing3.jpg" class="d-block w-100" alt="Seasonal Styles">
+                <div class="carousel-caption">
+                    <h2 class="slide-text">Seasonal Styles</h2>
+                    <p class="slide-subtext">Find the perfect outfit for every occasion</p>
+                    <form class="d-flex justify-content-center search-form">
+                        <input class="form-control search-input" type="search" placeholder="Search for dishes, locations..." aria-label="Search">
+                        <button class="btn btn-custom search-button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <section class="menu">
+        <div class="container">
+            <h2 class="section-title">Shop</h2>
+
+            
+            <div class="menu-category men's-clothing">
+                <h3 class="category-title">Men's Clothing</h3>
+                <div class="menu-items">
+                    
+                    <div class="menu-item">
+                        <img src="./men1.jpg" alt="Men's T-Shirt" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Men's T-Shirt</h3>
+                            <p class="menu-description">Comfortable and stylish t-shirts for men.</p>
+                            <span class="menu-price">$25.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="./men2.jpg" alt="Men's Jeans" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Men's Jeans</h3>
+                            <p class="menu-description">Durable and fashionable jeans for men.</p>
+                            <span class="menu-price">$45.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="./men3.jpg" alt="Men's Jacket" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Men's Jacket</h3>
+                            <p class="menu-description">Warm and trendy jackets for men.</p>
+                            <span class="menu-price">$65.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="menu-category women's-clothing">
+                <h3 class="category-title">Women's Clothing</h3>
+                <div class="menu-items">
+                    
+                    <div class="menu-item">
+                        <img src="./women1.jpg" alt="Women's Dress" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Women's Dress</h3>
+                            <p class="menu-description">Elegant dresses for women.</p>
+                            <span class="menu-price">$35.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="./women2.jpg" alt="Women's Blouse" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Women's Blouse</h3>
+                            <p class="menu-description">Stylish blouses for women.</p>
+                            <span class="menu-price">$29.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="./women3.jpg" alt="Women's Skirt" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Women's Skirt</h3>
+                            <p class="menu-description">Trendy skirts for women.</p>
+                            <span class="menu-price">$39.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="menu-category kids'-clothing">
+                <h3 class="category-title">Kids' Clothing</h3>
+                <div class="menu-items">
+                    
+                    <div class="menu-item">
+                        <img src="./kids1.jpg" alt="Kids' T-Shirt" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Kids' T-Shirt</h3>
+                            <p class="menu-description">Cute and comfortable t-shirts for kids.</p>
+                            <span class="menu-price">$15.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="./kids2.jpg" alt="Kids' Jeans" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Kids' Jeans</h3>
+                            <p class="menu-description">Durable and stylish jeans for kids.</p>
+                            <span class="menu-price">$25.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="./kids3.jpg" alt="Kids' Jacket" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="menu-title">Kids' Jacket</h3>
+                            <p class="menu-description">Warm and cozy jackets for kids.</p>
+                            <span class="menu-price">$35.99</span>
+                            <a href="./order.html" class="btn-custom read-more">Order Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav-section">
+                <div class="logo">
+                    <img src="./logo.jpg" alt="Restaurant Logo" class="logo-image">
+                    <span class="logo-text">ClothingStore</span>
+                </div>
+                <table class="nav-table">
+                    <tbody>
+                        
+                        <tr>
+                            <td><a href="#home">Home</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a href="#shop">Shop</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a href="#about">About Us</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a href="#contact">Contact</a></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="contact-section">
+                <h2>Have Questions? Contact Us!</h2>
+                <form class="contact-form">
+                    <input type="email" placeholder="Your Email" class="email-input" required>
+                    <textarea placeholder="Your Message" class="message-input" required></textarea>
+                    <button type="submit" class="btn-custom">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="social-media">
+            
+            <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            
+            <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            
+            <a href="#" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            
+        </div>
+    </header>
+</body>
+</html>
