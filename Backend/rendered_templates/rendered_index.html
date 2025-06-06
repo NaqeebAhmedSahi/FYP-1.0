@@ -1,478 +1,196 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothing Store</title>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;600&display=swap">
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-    <link rel="stylesheet" href="./style.css">
-    
-    <link rel="stylesheet" href="./catalog.css">
+    <title>Software</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
     
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="#">clothing</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="./shop.html">Shop</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="./aboutUs.html">About Us</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Carousel -->
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-        <div class="carousel-inner">
-            
-            <div class="carousel-item active">
-                <img src="./clothing1.jpg" class="d-block w-100" alt="Slider 1">
-                <div class="carousel-caption">
-                    <h2 class="slide-text">Welcome  to Our New Clothing Store</h2>
-                    <p class="slide-subtext">Discover the latest trends in fashion</p>
-                    <form class="d-flex justify-content-center search-form">
-                        <input class="form-control search-input" type="search" placeholder="Search for dishes, locations..." aria-label="Search">
-                        <button class="btn btn-custom search-button" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="carousel-item ">
-                <img src="./clothing2.jpg" class="d-block w-100" alt="Slider 2">
-                <div class="carousel-caption">
-                    <h2 class="slide-text">New Arrivals</h2>
-                    <p class="slide-subtext">Shop our exclusive collection</p>
-                    <form class="d-flex justify-content-center search-form">
-                        <input class="form-control search-input" type="search" placeholder="Search for dishes, locations..." aria-label="Search">
-                        <button class="btn btn-custom search-button" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="carousel-item ">
-                <img src="./clothing3.jpg" class="d-block w-100" alt="Slider 3">
-                <div class="carousel-caption">
-                    <h2 class="slide-text">Seasonal Styles</h2>
-                    <p class="slide-subtext">Find the perfect outfit for every occasion</p>
-                    <form class="d-flex justify-content-center search-form">
-                        <input class="form-control search-input" type="search" placeholder="Search for dishes, locations..." aria-label="Search">
-                        <button class="btn btn-custom search-button" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-
-    
-
-    <!-- Specials Section -->
-    <div class="specials-section container py-5 my-5">
-        <h2 class="section-title text-center mb-5">Shop by Category</h2>
-        <div class="specials-carousel">
-            <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
-            <div class="specials-wrapper">
-                <div class="specials-items">
-                    
-                    <div class="special-card">
-                        <img src="./men.jpg" alt="Men's Clothing" class="special-image">
-                        <div class="special-content">
-                            <h3 class="special-title">Men's Clothing</h3>
-                            <p class="special-description">Explore our collection of men's fashion, from casual wear to formal attire.</p>
-                            <p class="special-price"></p>
-                        </div>
-                    </div>
-                    
-                    <div class="special-card">
-                        <img src="./women.jpg" alt="Women's Clothing" class="special-image">
-                        <div class="special-content">
-                            <h3 class="special-title">Women's Clothing</h3>
-                            <p class="special-description">Discover stylish outfits for women, perfect for any occasion.</p>
-                            <p class="special-price"></p>
-                        </div>
-                    </div>
-                    
-                    <div class="special-card">
-                        <img src="./kids.jpg" alt="Kids' Clothing" class="special-image">
-                        <div class="special-content">
-                            <h3 class="special-title">Kids' Clothing</h3>
-                            <p class="special-description">Adorable and comfortable clothing for kids of all ages.</p>
-                            <p class="special-price"></p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
-        </div>
-    </div>
-
-
-    <!-- Large Image with Call-to-Action Section -->
-<section class="cta-section">
-    <div class="cta-image">
-        <img src="./pexels-chan-walrus-958545.jpg" alt="Special Offer">
-        <div class="cta-overlay">
-            <h2>Seasonal Special</h2>
-            <h3>50% Off All Desserts</h3>
-            <p>This weekend only - don't miss out!</p>
-            <a href="#" class="btn btn-cta">Order Now</a>
-        </div>
-    </div>
-</section>
-
-<!-- Product Grid with Filter Options -->
-<section class="menu-section">
-    <div class="container">
-        <h2 class="section-title">Our Menu</h2>
-        
-        <div class="filter-options">
-            <div class="filter-group">
-                <label for="category-filter">Category:</label>
-                <select id="category-filter" class="form-select">
-                    <option value="all">All Categories</option>
-                    <option value="starters">Starters</option>
-                    <option value="mains">Main Courses</option>
-                    <option value="desserts">Desserts</option>
-                    <option value="drinks">Drinks</option>
-                </select>
-            </div>
-            
-            <div class="filter-group">
-                <label for="price-filter">Price:</label>
-                <select id="price-filter" class="form-select">
-                    <option value="all">All Prices</option>
-                    <option value="0-10">$0 - $10</option>
-                    <option value="10-20">$10 - $20</option>
-                    <option value="20+">$20+</option>
-                </select>
-            </div>
-            
-            <div class="filter-group">
-                <label for="sort-by">Sort By:</label>
-                <select id="sort-by" class="form-select">
-                    <option value="popular">Most Popular</option>
-                    <option value="price-low">Price: Low to High</option>
-                    <option value="price-high">Price: High to Low</option>
-                    <option value="rating">Highest Rated</option>
-                </select>
-            </div>
-        </div>
-        
-        <div class="menu-grid">
-            <!-- Menu Item 1 -->
-            <div class="menu-item" data-category="mains" data-price="18" data-rating="4.8" data-popular="true">
-                <div class="menu-item-image">
-                    <img src="./pexels-sydney-troxell-223521-718742.jpg" alt="Truffle Pasta">
-                    <span class="popular-badge">Popular</span>
-                </div>
-                <div class="menu-item-content">
-                    <h3>Truffle Pasta</h3>
-                    <p class="item-description">Creamy pasta with a hint of fresh truffles, topped with parmesan.</p>
-                    <div class="item-meta">
-                        <span class="price">$18.99</span>
-                        <span class="rating">★ 4.8</span>
-                    </div>
-                    <button class="btn btn-order">Add to Order</button>
-                </div>
-            </div>
-            
-            <!-- Menu Item 2 -->
-            <div class="menu-item" data-category="mains" data-price="22" data-rating="4.7" data-popular="true">
-                <div class="menu-item-image">
-                    <img src="./pexels-lum3n-44775-1410235.jpg" alt="Grilled Salmon">
-                </div>
-                <div class="menu-item-content">
-                    <h3>Grilled Salmon</h3>
-                    <p class="item-description">Perfectly grilled salmon with a lemon butter sauce.</p>
-                    <div class="item-meta">
-                        <span class="price">$22.99</span>
-                        <span class="rating">★ 4.7</span>
-                    </div>
-                    <button class="btn btn-order">Add to Order</button>
-                </div>
-            </div>
-            
-            <!-- Menu Item 3 -->
-            <div class="menu-item" data-category="mains" data-price="14" data-rating="4.5" data-popular="false">
-                <div class="menu-item-image">
-                    <img src="./pexels-robinstickel-70497.jpg" alt="Gourmet Burger">
-                </div>
-                <div class="menu-item-content">
-                    <h3>Gourmet Burger</h3>
-                    <p class="item-description">Juicy beef patty with fresh greens, cheese, and a secret sauce.</p>
-                    <div class="item-meta">
-                        <span class="price">$14.99</span>
-                        <span class="rating">★ 4.5</span>
-                    </div>
-                    <button class="btn btn-order">Add to Order</button>
-                </div>
-            </div>
-            
-            <!-- Menu Item 4 -->
-            <div class="menu-item" data-category="starters" data-price="9" data-rating="4.3" data-popular="false">
-                <div class="menu-item-image">
-                    <img src="./pexels-janetrangdoan-1128678.jpg" alt="Bruschetta">
-                </div>
-                <div class="menu-item-content">
-                    <h3>Bruschetta</h3>
-                    <p class="item-description">Toasted bread topped with tomatoes, garlic, and fresh basil.</p>
-                    <div class="item-meta">
-                        <span class="price">$9.99</span>
-                        <span class="rating">★ 4.3</span>
-                    </div>
-                    <button class="btn btn-order">Add to Order</button>
-                </div>
-            </div>
-            
-            <!-- Menu Item 5 -->
-            <div class="menu-item" data-category="desserts" data-price="8" data-rating="4.9" data-popular="true">
-                <div class="menu-item-image">
-                    <img src="./pexels-fotios-photos-1351238.jpg" alt="Chocolate Lava Cake">
-                    <span class="popular-badge">Popular</span>
-                </div>
-                <div class="menu-item-content">
-                    <h3>Chocolate Lava Cake</h3>
-                    <p class="item-description">Warm chocolate cake with a molten center, served with vanilla ice cream.</p>
-                    <div class="item-meta">
-                        <span class="price">$8.99</span>
-                        <span class="rating">★ 4.9</span>
-                    </div>
-                    <button class="btn btn-order">Add to Order</button>
-                </div>
-            </div>
-            
-            <!-- Menu Item 6 -->
-            <div class="menu-item" data-category="drinks" data-price="6" data-rating="4.6" data-popular="false">
-                <div class="menu-item-image">
-                    <img src="./pexels-chevanon-photography-302899.jpg" alt="Signature Cocktail">
-                </div>
-                <div class="menu-item-content">
-                    <h3>Signature Cocktail</h3>
-                    <p class="item-description">Our special blend of spirits with fresh fruit juices.</p>
-                    <div class="item-meta">
-                        <span class="price">$6.99</span>
-                        <span class="rating">★ 4.6</span>
-                    </div>
-                    <button class="btn btn-order">Add to Order</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <!-- Highlights Section -->
-    <section class="key-highlights">
-        <div class="container">
-            <h2 class="section-title">Why Choose Us</h2>
-            <div class="highlights-wrapper">
-                
-                <div class="highlight-card">
-                    <div class="highlight-icon">
-                        <i class="fas fa-tags"></i>
-                    </div>
-                    <h3 class="highlight-title">Exclusive Deals</h3>
-                    <p class="highlight-description">Enjoy discounts on our latest collections.</p>
-                </div>
-                
-                <div class="highlight-card">
-                    <div class="highlight-icon">
-                        <i class="fas fa-shipping-fast"></i>
-                    </div>
-                    <h3 class="highlight-title">Fast Shipping</h3>
-                    <p class="highlight-description">Get your orders delivered quickly and reliably.</p>
-                </div>
-                
-                <div class="highlight-card">
-                    <div class="highlight-icon">
-                        <i class="fas fa-undo"></i>
-                    </div>
-                    <h3 class="highlight-title">Easy Returns</h3>
-                    <p class="highlight-description">Hassle-free returns within 30 days.</p>
-                </div>
-                
-                <div class="highlight-card">
-                    <div class="highlight-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3 class="highlight-title">Premium Quality</h3>
-                    <p class="highlight-description">We use only the finest materials for our clothing.</p>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">What Our Customers Say</h2>
-            <div class="testimonials-wrapper">
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>I love the quality and style of the clothes! Highly recommend this store.</p>
-                    </div>
-                    <div class="customer-info">
-                        <img src="./anonymous.jpg" alt="John Doe" class="customer-image">
-                        <h3 class="customer-name">John Doe</h3>
-                        <span class="customer-role">Happy Customer</span>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>Great selection and fast delivery. Will definitely shop here again!</p>
-                    </div>
-                    <div class="customer-info">
-                        <img src="./anonymous.jpg" alt="Jane Smith" class="customer-image">
-                        <h3 class="customer-name">Jane Smith</h3>
-                        <span class="customer-role">Fashion Enthusiast</span>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>Perfect outfits for my kids. They love the designs!</p>
-                    </div>
-                    <div class="customer-info">
-                        <img src="./anonymous.jpg" alt="Emily Johnson" class="customer-image">
-                        <h3 class="customer-name">Emily Johnson</h3>
-                        <span class="customer-role">Parent</span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="gallery">
-        <div class="container">
-            <h2 class="section-title">Our Ambiance</h2>
-            
-            <div class="gallery-item">
-                
-                <div class="gallery-text">
-                    <h3>Casual Wear</h3>
-                    <div class="underline"></div>
-                    <p>Explore our range of comfortable and stylish casual wear.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-                <img src="./gallery1.jpg" alt="Casual Wear" class="gallery-image">
-                
-            </div>
-            
-            <div class="gallery-item">
-                
-                <img src="./gallery2.jpg" alt="Formal Attire" class="gallery-image">
-                <div class="gallery-text">
-                    <h3>Formal Attire</h3>
-                    <div class="underline"></div>
-                    <p>Elegant and sophisticated outfits for formal occasions.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-                
-            </div>
-            
-            <div class="gallery-item">
-                
-                <div class="gallery-text">
-                    <h3>Seasonal Collections</h3>
-                    <div class="underline"></div>
-                    <p>Stay trendy with our seasonal fashion lines.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-                <img src="./gallery3.jpg" alt="Seasonal Collections" class="gallery-image">
-                
-            </div>
-            
-        </div>
-    </section>
-
-    <!-- Footer -->
     <header class="header">
         <div class="container">
-            <div class="nav-section">
-                <div class="logo">
-                    <img src="./logo.jpg" alt="Restaurant Logo" class="logo-image">
-                    <span class="logo-text">clothing</span>
+            <div class="logo">
+                <a href="#">AIPortfolio</a>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    
+                  </ul>
                 </div>
-                <table class="nav-table">
-                    <tbody>
-                        <tr>
-                            
-                            <td><a href="#home">Home</a></td>
-                            
-                            
-                            <td><a href="#shop">Shop</a></td>
-                            
-                        </tr>
-                        <tr>
-                            
-                            
-                            <td><a href="#about">About Us</a></td>
-                            
-                            
-                            <td><a href="#contact">Contact</a></td>
-                            
-                            
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="contact-section">
-                <h2>Have Questions? Contact Us!</h2>
-                <form class="contact-form">
-                    <input type="email" placeholder="Your Email" class="email-input" required>
-                    <textarea placeholder="Your Message" class="message-input" required></textarea>
-                    <button type="submit" class="btn-custom">Send</button>
-                </form>
-            </div>
-        </div>
-        <div class="social-media">
-            
-            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-            
-            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            
-            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            
+              </nav>
+            <a href="#contact" class="btn">Hire Me</a>
         </div>
     </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./script.js"></script>
+
+
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>[Your Name]</span>, a <span>AI/ML Engineer</span> building <span>[Your Specialty]</span>.</h1>
+            <p>Building intelligent systems that learn and adapt.</p>
+            <div class="hero-buttons">
+                
+                <a href="#projects" class="btn primary">View Projects</a>
+                
+                <a href="#contact" class="btn secondary">Contact Me</a>
+                
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>↓ Scroll Down</span>
+        </div>
+    </section>
+    
+    <section class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-container">
+            
+            <div class="project-card">
+                <img src="cv_system" alt="Computer Vision System">
+                <div class="project-info">
+                    <h3>Computer Vision System</h3>
+                    <p>Real-time object detection model with 95% accuracy.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="llm_framework" alt="LLM Fine-Tuning Framework">
+                <div class="project-info">
+                    <h3>LLM Fine-Tuning Framework</h3>
+                    <p>Custom pipeline for adapting large language models.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="skills">
+        <h2 class="section-title">My AI/ML Skills</h2>
+        <div class="skills-container">
+            
+            <div class="skill">
+                <h3>Deep Learning <span>95%</span></h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            
+            <div class="skill">
+                <h3>PyTorch <span>90%</span></h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            
+            <div class="skill">
+                <h3>Model Optimization <span>85%</span></h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="clients">
+        <h2 class="section-title">Worked With</h2>
+        <div class="logos">
+            <div class="logos-slide">
+                
+                <img src="ai_company" alt="AI Company">
+                
+                <img src="research_lab" alt="Research Lab">
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <h2 class="section-title">What Colleagues Say</h2>
+        <div class="testimonial-container">
+            
+            <div class="testimonial">
+                <img src="ai_testimonial" alt="Head of AI">
+                <p>"Their model architecture became our new gold standard."</p>
+                <h4>Head of AI</h4>
+                <span>Director @ TechCorp</span>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I'm a passionate AI engineer specializing in deep learning and model deployment.</p>
+            </div>
+            <div class="about-image">
+                <img src="aiengineer_profile" alt="[Your Name]">
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Let's Build AI Together</h2>
+        <p>Have an AI challenge? Let's engineer a smart solution.</p>
+        <div class="cta-buttons">
+            
+            <a href="contact.html" class="btn primary-btn">Get in Touch</a>
+            
+            <a href="projects.html" class="btn secondary-btn">See My Work</a>
+            
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Your Name</h2>
+                <p>Engineering intelligence, one model at a time.</p>
+            </div>
+            <div class="footer-socials">
+                
+                <a href="https://github.com/yourprofile" target="_blank">
+                    <img src="github_icon" alt="GitHub">
+                </a>
+                
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                    <img src="linkedin_icon" alt="LinkedIn">
+                </a>
+                
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>©  Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

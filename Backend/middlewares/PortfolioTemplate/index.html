@@ -1,6 +1,40 @@
-{% extends "base.html" %}
 
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="{{ portfolio.meta.charset }}">
+    <meta name="viewport" content="{{ portfolio.meta.viewport }}">
+    <title>{{ portfolio.meta.title }}</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    {% if portfolio.meta.favicon %}
+    <link rel="icon" href="{{ portfolio.meta.favicon }}">
+    {% endif %}
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">{{ portfolio.header.logo }}</a>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    {% for item in portfolio.header.navigation %}
+                    <li class="nav-item">
+                      <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </nav>
+            <a href="{{ portfolio.header.cta.url }}" class="btn">{{ portfolio.header.cta.text }}</a>
+        </div>
+    </header>
+
+
+
+    {% block content %}
     <section class="hero">
         <div class="hero-content">
             <h1>Hi, I'm <span>{{ portfolio.pages.home.hero.name }}</span>, a <span>{{ portfolio.pages.home.hero.profession }}</span> building <span>{{ portfolio.pages.home.hero.specialty }}</span>.</h1>
@@ -92,3 +126,29 @@
         </div>
     </section>
 {% endblock %}
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>{{ portfolio.footer.name }}</h2>
+                <p>{{ portfolio.footer.tagline }}</p>
+            </div>
+            <div class="footer-socials">
+                {% for social in portfolio.footer.social %}
+                <a href="{{ social.url }}" target="_blank">
+                    <img src="{{ social.icon }}" alt="{{ social.platform }}">
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>{{ portfolio.footer.copyright|replace("[year]", now.year) }}</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
